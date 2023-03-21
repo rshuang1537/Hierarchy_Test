@@ -1,0 +1,1396 @@
+function,func_child_cnt,func_child,table_child_cnt,table_child
+Vision_One_Account_App_Usage_Trending,36,"['Vision_One_Account_App_Usage_Trending_Sase', 'Vision_One_Account_App_Usage_Trending_Assessment_Service_UI', 'Vision_One_Account_App_Usage_Trending_Detection_Model_Management_API', 'Vision_One_Account_App_Usage_Trending_Detection_Model_Management_UI', 'Vision_One_Account_App_Usage_Trending_Early_Warning_UI', 'Vision_One_Account_App_Usage_Trending_Email_Account_Inventory_API', 'Vision_One_Account_App_Usage_Trending_Email_Account_Inventory_UI', 'Vision_One_Account_App_Usage_Trending_Login_UI', 'Vision_One_Account_App_Usage_Trending_Managed_XDR_UI', 'Vision_One_Account_App_Usage_Trending_Network_Inventory_UI', 'Vision_One_Account_App_Usage_Trending_OAT_API', 'Vision_One_Account_App_Usage_Trending_OAT_UI', 'Vision_One_Account_App_Usage_Trending_Response_API', 'Vision_One_Account_App_Usage_Trending_Response_UI', 'Vision_One_Account_App_Usage_Trending_Search_API', 'Vision_One_Account_App_Usage_Trending_Search_UI', 'Vision_One_Account_App_Usage_Trending_Service_Gateway_Inventory_UI', 'Vision_One_Account_App_Usage_Trending_slog', 'Vision_One_Account_App_Usage_Trending_Workbench_API', 'Vision_One_Account_App_Usage_Trending_Workbench_UI', 'Vision_One_Account_App_Usage_Trending_Attack_Surface_Discovery_UI', 'Vision_One_Account_App_Usage_Trending_Endpoints_Policies_UI', 'Vision_One_Account_App_Usage_Trending_Endpoint_Inventory_UI', 'Vision_One_Account_App_Usage_Trending_Executive_Dashboard_UI', 'Vision_One_Account_App_Usage_Trending_Report_Management_UI', 'Vision_One_Account_App_Usage_Trending_Sandbox_Analysis_UI', 'Vision_One_Account_App_Usage_Trending_Security_Playbook_UI', 'Vision_One_Account_App_Usage_Trending_Zero_Trust_Secure_Access_UI', 'Vision_One_Account_App_Usage_Trending_Campaign_Intel_UI', 'Vision_One_Account_App_Usage_Trending_Intel_Reports_UI', 'Vision_One_Account_App_Usage_Trending_SO_Mgmt_UI', 'Vision_One_Account_App_Usage_Trending_Forensics_And_Analysis_UI', 'Vision_One_Account_App_Usage_Trending_Mobile_Inventory_UI', 'Vision_One_Account_App_Usage_Trending_Mobile_Security_UI', 'Vision_One_Account_App_Usage_Trending_Network_Intrusion_Prevention_UI', 'Vision_One_Account_App_Usage_Trending_Security_Dashboard_UI']",0,[]
+CE_get_all_customer_engagement_metrics,14,"['CE_get_ti_manualsweeping', 'CE_get_search_features', 'CE_get_dashboard_features', 'CE_get_sensor_deploy_features', 'CE_get_TPI_enabled', 'CE_get_security_configure_metrics', 'CE_get_Logon_info', 'CE_get_risk_insight_metrics', 'CE_get_early_warning_metrics', 'CE_get_misc_metrics', 'CE_get_wb_severity_touch', 'CE_get_oat_expand_detail', 'CE_get_OAT_engagement', 'CE_get_wb_engagement']",0,[]
+RA_Assessment_Existing_Customer_With_Sensor_Deployed_React_Funnel,9,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'RA_Assessment_Customer', 'RA_Assessment_Completed_Customer', 'RA_Assessment_Trigger_WB_Customer', 'RA_Assessment_Touched_WB_Customer', 'RA_Assessment_Customer_Company_Size', 'RA_Assessment_ZTRI_Configured_Customer', 'RA_Assessment_ZTRI_Action_Taken_Customer']",2,"['CLP_Account_UBT', 'CLP_Account_UBT_Daily']"
+Func_V1_App_Usage_detail,9,"['slog_ubtaudit', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC', 'CLP_WHO_INUSE_ZTRI', 'CLP_WHO_DEPLOY_ZTSA', 'Reports_Inuse', 'TRI_get_enter_page_raw_data', 'Func_Forensics_And_Analysis_Use', 'Func_NIPS_Use', 'Func_pendo_track_type_mapping']",3,"['xdr_pendo_events_flattened', 'slog_ui_activity', 'xdr_pendo_feature_events']"
+Func_CLP_Account_Risk_Insights_UBT,8,"['TRI_get_enabled_data_source_detail', 'TRI_get_enabled_data_source_count', 'TRI_get_enter_page_metrics_unpivot', 'Func_V1_Accumulated_Cus', 'TRI_get_security_playbook_metrics', 'Func_Hubble_MAP_Data_Source_Type', 'Func_Hubble_MAP_Data_Source_By_Risk_Factor', 'Func_pendo_track_type_mapping']",1,['trilogyDataAPI']
+GET_V1_PAGE,7,"['GET_V1_RI_PAGE', 'GET_V1_XDR_PAGE', 'GET_V1_TI_PAGE', 'GET_V1_WAA_PAGE', 'GET_V1_ZTSA_PAGE', 'GET_V1_MOBILE_PAGE', 'GET_V1_EAI_PAGE']",0,[]
+Func_V1_Engagement_Score_v2,7,"['CES2_XDR_Threat_Investigation', 'CES2_Risk_Insights', 'CES2_Threat_Intelligence', 'CES2_Workflow_and_Automation', 'CES2_Sensor_Deployment', 'CES2_V1_Login', 'CES2_Zero_Trust_Secure_Access']",1,['CLP_Account_UBT_Daily']
+Func_CLP_Account_UBT_App_Usage_bak,7,"['XDR_created_WB', 'slog_ubtaudit', 'Func_CLP_Account_UBT_Channel', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC', 'CLP_WHO_INUSE_ZTRI', 'CLP_WHO_DEPLOY_ZTSA', 'Reports_Inuse']",5,"['slog_category', 'xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_License_Daily', 'xdr_pendo_feature_events']"
+RA_Assessment_Customer_React_Funnel,7,"['RA_Assessment_Customer', 'RA_Assessment_Completed_Customer', 'RA_Assessment_Trigger_WB_Customer', 'RA_Assessment_Touched_WB_Customer', 'RA_Assessment_Customer_Company_Size', 'RA_Assessment_ZTRI_Configured_Customer', 'RA_Assessment_ZTRI_Action_Taken_Customer']",1,['CLP_Account_UBT_Daily']
+CE_get_wb_engagement,7,"['XDR_created_WB', 'CE_get_wb_close_rate', 'CE_get_wb_decisive_response_rate', 'CE_get_wb_FP_close_rate', 'CE_get_wb_investigate_rate', 'CE_get_wb_touch_rate', 'CE_get_wb_visit_v2']",0,[]
+Func_CLP_Account_UBT_Simple_Pre_20200901,7,"['slog_ubtaudit', 'Func_CLP_Account_UBT_Channel', 'MOBILE_SECURITY_ENROLLED_DEVICE_FUNC', 'Func_CLP_Account_UBT_App_Usage_Pre_20200901', 'Func_Product_Connect_Status_Hubble', 'Func_Sandbox_Manually_Submission', 'Func_Sandbox_Response_Submission']",10,"['MAK_iES_Sensor_Count', 'CLP_Account_License', 'C1_Account_Usage_Daily', 'endpoint_sensor_daily_snapshot', 'c1ws_endpoint_sensor_daily_snapshot', 'CLP_Account_License_Daily', 'credit_allocation_daily_snapshot', 'CLP_Account_CES_Daily', 'email_sensor_daily_snapshot', 'network_sensor_daily_snapshot']"
+RA_Assessment_Customer_React_Funnel_Try_Enable_Sensor,7,"['RA_Assessment_Customer', 'RA_Assessment_Completed_Customer', 'RA_Assessment_Trigger_WB_Customer', 'RA_Assessment_Touched_WB_Customer', 'RA_Assessment_Customer_Company_Size', 'RA_Assessment_ZTRI_Configured_Customer', 'RA_Assessment_ZTRI_Action_Taken_Customer']",1,['CLP_Account_UBT_Daily']
+CE_get_wb_engagement_bak,7,"['XDR_created_WB', 'CE_get_wb_close_rate', 'CE_get_wb_decisive_response_rate', 'CE_get_wb_FP_close_rate', 'CE_get_wb_investigate_rate', 'CE_get_wb_touch_rate', 'CE_get_wb_visit']",0,[]
+ZTSA_ZTNA_Basic_Get_Configuration,7,"['ZTSA_ZTNA_Basic_Get_Provision', 'ZTSA_ZTNA_Basic_Get_IAM', 'ZTSA_ZTNA_Basic_Get_App', 'ZTSA_ZTNA_Basic_Get_Connector', 'ZTSA_ZTNA_Basic_Get_PRule', 'ZTSA_ZTNA_Basic_Get_SSO', 'ZTSA_ZTNA_Basic_Get_Agent']",0,[]
+ZTSA_ZTNA_Customer_Profile,6,"['slog_ubtaudit', 'CLP_WHO_VISIT_ZTSA', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules', 'CLP_WHO_DEPLOY_ZTSA', 'CLP_WHO_USE_ZTSA']",4,"['xdr_pendo_events_flattened', 'sase_tdl', 'xdr_xbc_agent_run_result', 'xdr_endpoint_agent']"
+Func_CLP_Account_UBT_Simple,6,"['slog_ubtaudit', 'Func_CLP_Account_UBT_Channel', 'Func_Product_Connect_Status_Hubble', 'Func_Sandbox_Submission', 'Func_V1_App_Usage_by_CLP', 'Func_Mobile_Security_Enrolled_Customer']",11,"['MAK_iES_Sensor_Count', 'CLP_Account_License', 'C1_Account_Usage_Daily', 'endpoint_sensor_daily_snapshot', 'c1ws_endpoint_sensor_daily_snapshot', 'CLP_Account_License_Daily', 'C1_Account_Usage', 'credit_allocation_daily_snapshot', 'CLP_Account_CES_Daily', 'email_sensor_daily_snapshot', 'network_sensor_daily_snapshot']"
+ZTSA_ZTNA_Customer_Setting,6,"['slog_ubtaudit', 'CLP_WHO_VISIT_ZTSA', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules', 'CLP_WHO_DEPLOY_ZTSA', 'CLP_WHO_USE_ZTSA']",4,"['xdr_pendo_events_flattened', 'sase_tdl', 'xdr_xbc_agent_run_result', 'xdr_endpoint_agent']"
+Func_CLP_Account_UBT_Simple_bak,6,"['slog_ubtaudit', 'Func_CLP_Account_UBT_Channel', 'Func_Product_Connect_Status_Hubble', 'Func_Sandbox_Submission', 'Func_V1_App_Usage_by_CLP', 'Func_Mobile_Security_Enrolled_Customer']",11,"['MAK_iES_Sensor_Count', 'CLP_Account_License', 'C1_Account_Usage_Daily', 'endpoint_sensor_daily_snapshot', 'c1ws_endpoint_sensor_daily_snapshot', 'CLP_Account_License_Daily', 'C1_Account_Usage', 'credit_allocation_daily_snapshot', 'CLP_Account_CES_Daily', 'email_sensor_daily_snapshot', 'network_sensor_daily_snapshot']"
+swg_ubt_analysis,6,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'xdr_matomo_events_max', 'V1_Parse_Element_Click', 'ZTSA_Customer_CLP_date_time', 'ZTSA_ZTNA_Basic_Get_SSO']",1,['xdr_pendo_raw_events']
+CES2_Risk_Insights,6,"['Reports_Inuse', 'TRI_get_enabled_data_source_count', 'RI_mitigate_or_prevent_risk_feature', 'RI_access_risk_feature', 'RI_general_feature', 'RI_visit_RI_apps']",1,['CLP_Account_License']
+Tree_View_Workbench,5,"['XDR_created_WB', 'XDR_get_decisive_response', 'XDR_visit_WB', 'XDR_get_workbench_investigate', 'XDR_touched_WB_base']",0,[]
+Tree_View_Workbench_bak,5,"['XDR_created_WB', 'XDR_get_decisive_response', 'XDR_visit_WB', 'XDR_get_workbench_investigate', 'XDR_touched_WB_base']",0,[]
+Func_RI_UBT_t,5,"['TRI_get_enabled_data_source_detail', 'TRI_get_enabled_data_source_count', 'TRI_get_enter_page_metrics_unpivot', 'Func_V1_Accumulated_Cus', 'TRI_get_security_playbook_metrics']",1,['trilogyDataAPI']
+Func_C1_Account_Usage,4,"['vw_C1_Deployed_Instance', 'vw_C1_Deployed_Instance_by_Dimension', 'vw_C1_Deployed_Instance_by_FreeTier', 'vw_C1_Account_Usage_by_Level']",4,"['c1_pendo_page_events', 'c1_pendo_pages', 'C1_Account_Mapping', 'C1WS_From_DS_Daily']"
+onelink_get_app_launch_table,4,"['onelink_is_module_event_valid', 'onelink_map_module_to_product_name', 'onelink_map_module_to_destination', 'onelink_map_additional_info_to_one_link_info']",2,"['telemetry_collector', 'tmc_user']"
+CE_get_TPI_enabled,4,"['CE_get_TPI_enabled_visibility', 'CE_get_TPI_enabled_IT_management', 'CE_get_TPI_enabled_investigation', 'CE_get_TPI_enabled_network_blocking']",0,[]
+Func_CLP_Account_UBT_App_Usage_Pre_20200901,4,"['slog_ubtaudit', 'Func_CLP_Account_UBT_Channel', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC', 'CLP_WHO_INUSE_ZTRI']",4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_License_Daily', 'xdr_pendo_feature_events']"
+TRI_get_enabled_data_source_detail,4,"['GET_ZTRI_SENSOR_STATUS_RAW', 'GET_TRILOGY_SENSOR_LOGS', 'GET_INTERNET_FACING_SENSOR_LOGS', 'Func_Hubble_MAP_Data_Source_Type']",0,[]
+XDR_visit_DIR_Apps,4,"['slog_ubtaudit', 'XDR_visit_WB', 'XDR_visit_OAT', 'XDR_visit_Search']",0,[]
+Tree_View_Executive_Dashboard_bak_0223,4,"['xdr_matomo_events', 'Func_V1_Accumulated_Cus', 'DVASS_Get_UI_Interaction', 'Func_pendo_track_type_mapping']",1,['xdr_pendo_events_flattened']
+Tree_View_Search,4,"['XDR_get_decisive_response', 'XDR_get_search_investigate', 'XDR_visit_Search', 'XDR_adv_features_Search']",0,[]
+CES2_XDR_Threat_Investigation,4,"['XDR_visit_DIR_Apps', 'XDR_investigate_DIR_Apps', 'XDR_adv_features_DIR_Apps', 'XDR_touched_DIR_Apps']",1,['xdr_pendo_raw_events']
+onelink_get_red_alert_table,4,"['onelink_get_web_click_table', 'onelink_get_app_launch_table', 'onelink_get_query_parameter_value_from_url', 'onelink_get_platform']",1,['telemetry_collector']
+NEW_ZTSA_Customer_Detail,4,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA', 'CLP_WHO_DEPLOY_ZTSA', 'CLP_WHO_USE_ZTSA']",0,[]
+V1_Mobile_Console_Data,4,"['slog_ubtaudit', 'Cohort_Events_Analysis_UCLPS', 'Mobile_App_Report_Data', 'GET_PENDO_SURVEY']",0,[]
+NI_flywheel_eligible_Cus,4,"['DDI_Valid_Cus', 'slog_trace', 'slog_ubtaudit', 'NI_customer_base']",2,"['MAK_Account_GUID', 'ddi_product_feedback']"
+Tree_View_OAT,4,"['XDR_get_decisive_response', 'XDR_visit_OAT', 'XDR_get_OAT_investigate', 'XDR_touched_OAT']",0,[]
+NEW_ZTSA_customers_30d_temp,4,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA', 'CLP_WHO_DEPLOY_ZTSA', 'CLP_WHO_USE_ZTSA']",2,"['CLP_Account_License', 'sase_tdl']"
+REPORT_V1_RI,4,"['CLP_WHO_VISIT_ZTRI_DAILY', 'CLP_WHO_INUSE_ZTRI_DAILY', 'CLP_WHO_VISIT_ZTRI', 'CLP_WHO_INUSE_ZTRI']",0,[]
+CES2_XDR_Threat_Investigation_bak,4,"['XDR_visit_DIR_Apps', 'XDR_investigate_DIR_Apps', 'XDR_adv_features_DIR_Apps', 'XDR_touched_DIR_Apps']",1,['xdr_pendo_raw_events']
+onelink_get_app_launch_table_from_app_information,4,"['onelink_fix_additional_info', 'onelink_get_query_parameter_value_from_url', 'onelink_map_prod_url_to_destination', 'onelink_fix_additional_info_for_app_information']",2,"['telemetry_collector', 'tmc_user']"
+JapanXTrialUser,4,"['R2209User', 'R2208User', 'R2211User', 'R2301User']",1,['JapanXTrialConversion']
+NI_NS_deployed_Cus_base,4,"['slog_ubtaudit', 'slog_system', 'NI_customer_base', 'NI_onboard_customers']",0,[]
+Reports_Inuse_CLP,4,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_download', 'Reports_scheduled_successful', 'Reports_Schedule_Running']",0,[]
+ZTSA_ZTNA_DebugV2,4,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'CLP_WHO_USE_ZTSA', 'ZTSA_ZTNA_Debug_V1']",2,"['sase_tdl', 'xdr_pendo_raw_events']"
+REPORT_V1_COMMON,3,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_V1_DAILY', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+Func_ps_test_backup,3,"['slog_trace', 'slog_ubtaudit', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC']",3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'xdr_pendo_feature_events']"
+R2209ToolbarStatus,3,"['R2209User', 'R2209NoIntentionInstallToolbarSurvey', 'R2209InstallToolbarSurveyAbort']",0,[]
+func_ps_test_opt,3,"['slog_trace', 'slog_ubtaudit', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC']",2,"['xdr_pendo_events_flattened', 'xdr_pendo_feature_events']"
+SG2_Appliance_Service_Status,3,"['slog_ubtaudit', 'SG2_Appliance_Registered', 'SG2_Cus_Registered']",0,[]
+Func_ps_test_base,3,"['slog_trace', 'slog_ubtaudit', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC']",2,"['xdr_pendo_events_flattened', 'xdr_pendo_feature_events']"
+CLP_WHO_DEPLOY_ZTSA_test,3,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",1,['sase_tdl']
+R2211ToolbarStatus,3,"['R2211User', 'R2211NoIntentionInstallToolbarSurvey', 'R2211InstallToolbarSurveyAbort']",0,[]
+Func_C1_Account_Usage_Raw,3,"['vw_C1_Entitlement_Daily_Extend', 'vw_C1_Usage_Extend', 'Func_C1_Account_Mapping_2021']",5,"['AWS_Channel_Daily', 'MAK_Channel_Daily', 'C1_Entitlement_Daily', 'C1_Account_Mapping', 'C1_Usage']"
+CE_get_OAT_investigate,3,"['xdr_matomo_events', 'slog_ubtaudit', 'XDR_get_investigate_response']",1,['V1_role']
+Func_ps_test,3,"['slog_trace', 'slog_ubtaudit', 'SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC']",2,"['xdr_pendo_events_flattened', 'xdr_pendo_feature_events']"
+CE_get_OAT_engagement_bak,3,"['CE_get_OAT_copy_to_clipboard', 'CE_get_OAT_investigate', 'CE_get_OAT_List']",0,[]
+XDR_get_OAT_investigate,3,"['xdr_matomo_events', 'slog_ubtaudit', 'XDR_get_investigate_response']",1,['V1_role']
+XDR_get_possible_soc,3,"['slog_ubtaudit', 'XDR_visit_DIR_Apps', 'XDR_investigate_DIR_Apps']",0,[]
+Tree_View_ZTSA_0301,3,"['slog_ubtaudit', 'Get_ZTSA_Rules', 'Func_V1_Accumulated_Cus']",3,"['xdr_pendo_events_flattened', 'dataLakeMetrics', 'sase_tdl']"
+NI_flywheel_30_eligible_Cus,3,"['NI_DDI_V1_support_Cus', 'FW_Promotion_Log', 'DDI_total_licensed_cus']",1,['CLP_Account_License']
+TRI_get_enabled_data_source_detail_Monica,3,"['GET_ZTRI_SENSOR_STATUS_RAW', 'GET_TRILOGY_SENSOR_LOGS', 'GET_INTERNET_FACING_SENSOR_LOGS']",0,[]
+onelink_get_install_table_with_app_information,3,"['onelink_get_web_click_table', 'onelink_get_app_launch_table', 'onelink_get_app_launch_table_from_app_information']",0,[]
+Tree_View_Service_Gateway,3,"['slog_ubtaudit', 'GET_ZTRI_SENSOR_STATUS_RAW', 'Func_V1_Accumulated_Cus']",2,"['DeviceVulnerability', 'xdr_pendo_raw_events']"
+Tree_View_Executive_Dashboard,3,"['TRI_get_enter_page_metrics_unpivot', 'DVASS_Get_UI_Interaction', 'Func_pendo_track_type_mapping']",1,['xdr_pendo_events_flattened']
+SG_Appliance_Service_Status_2,3,"['slog_ubtaudit', 'SG_Cus_Registered', 'SG_Appliance_Registered']",0,[]
+Customer_Profiles_ETL_bak,3,"['XDR_get_paid_customers', 'XDR_get_trial_customers', 'mxdr_customer']",4,"['CLP_Account_License', 'MAK_Account_GUID', 'MAK_Account_License', 'osce_product_feedback']"
+CLP_WHO_DEPLOY_ZTSA,3,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",1,['sase_tdl']
+TRI_get_enabled_data_source_detail_bak,3,"['GET_ZTRI_SENSOR_STATUS_RAW', 'GET_TRILOGY_SENSOR_LOGS', 'GET_INTERNET_FACING_SENSOR_LOGS']",0,[]
+get_customer_decision_type,3,"['mxdr_customer', 'get_customer_ubt_type', 'slog_ubtaudit']",0,[]
+Revenue_YTD_Trending,3,"['GetCurrentMonth', 'GetMonths', 'Invoice_Detail']",0,[]
+RA_Assessment_Touched_WB_Customer,3,"['XDR_created_WB', 'RA_Assessment_Customer', 'XDR_touched_WB']",0,[]
+GET_ZTRI_SENSOR_CUSTOMER_COUNT,3,"['GET_ZERI_SENSOR_LOGCOUNT_DAILY', 'CLP_WHO_VISIT_V1', 'CLP_WHO_INUSE_ZTRI']",0,[]
+NI_flywheel_onboarded_Cus,3,"['slog_trace', 'slog_ubtaudit', 'NI_flywheel_eligible_Cus']",1,['MAK_Account_GUID']
+Reports_shcedule,3,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Inuse', 'Reports_Visit']",0,[]
+Reports_Onetime,3,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Inuse', 'Reports_Visit']",0,[]
+Customer_Profiles_ETL,3,"['XDR_get_paid_customers', 'XDR_get_trial_customers', 'mxdr_customer']",5,"['CLP_Account_License', 'CLP_Account_UBT', 'MAK_Account_GUID', 'MAK_Account_License', 'osce_product_feedback']"
+Func_CLP_Account_CES_Backup_20220218,2,"['slog_ubtaudit', 'CLP_WHO_INUSE_ZTRI']",3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_License_Daily']"
+R2209AutpOpenPayGuard,2,"['R2209User', 'R2209FirstPayGuardUsage']",1,['telemetry_collector_ti']
+TPI_enabled_cus_3rd_sharing_etl_v2,2,"['slog_ubtaudit', 'TPI_sLog_service_gateway_v2']",0,[]
+TRI_get_engagement_score_preprocess_bak,2,"['xdr_matomo_events', 'TRI_get_enter_page_raw_data']",0,[]
+RA_Assessment_ZTRI_Configured_Customer,2,"['slog_ubtaudit', 'RA_Assessment_Customer']",0,[]
+TPI_Cus_log_admins,2,"['TPI_Cus_base', 'slog_ubtaudit']",0,[]
+ZTSA_ZTNA_Basic_Get_Provision,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+RA_Assessment_ZTRI_Action_Taken_Customer,2,"['slog_ubtaudit', 'RA_Assessment_Customer']",0,[]
+NEW_ZTSA_Agent_Deployment,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'GET_OS_Category']",1,['xdr_endpoint_agent']
+vw_C1_Deployed_Instance_by_FreeTier,2,"['vw_C1_Usage_Extend', 'vw_C1_NSVA']",0,[]
+_ApexOne_Agent_Setting_for_Early_Warning,2,"['ApexOne_Server_BIF_FeatureFlagHiddenKey', 'ApexOne_RT_Setting_Action']",6,"['RealTimeScanSetting', 'AgentBuildInfo', 'WebReputationSetting', 'BehaviorMonitorSetting', 'PredictiveMachineLearningSetting', 'ServerInfo']"
+NEW_ZTSA_rule_enforcement_template,2,"['Get_ZTSA_Rules', 'CLP_WHO_DEPLOY_ZTSA']",1,['sase_tdl']
+R2209EmailDefender,2,"['R2209User', 'R2211User']",1,['telemetry_collector']
+NI_NS_paired_SG,2,"['slog_ubtaudit', 'NI_customer_base']",0,[]
+CE_get_wb_touch_rate_bak,2,"['XDR_touched_WB', 'XDR_touched_WB_include_export']",0,[]
+ZTSA_Survey_Browser_Auth_Solution,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+TRI_get_security_playbook_metrics,2,"['xdr_matomo_events', 'slog_ubtaudit']",0,[]
+ZTSA_Survey_App_Template,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+TRI_get_engagement_score_bak,2,"['TRI_get_enabled_data_source_count', 'TRI_get_engagement_score_preprocess']",1,['CLP_Account_License']
+onelink_get_news_page_table,2,"['onelink_is_user_agent_valid', 'onelink_get_product_table']",1,['telemetry_collector']
+RA_Assessment_Customer,2,"['slog_ubtaudit', 'RA_CLP_V1_License']",4,"['CLP_Account_License', 'Fill_Out_Form', 'CLP_Account_UBT_Daily', 'Assessment_Data']"
+NEW_ZTSA_deploy_agent_with_traffic,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'GET_OS_Category']",2,"['dataLakeMetrics', 'xdr_endpoint_agent']"
+NEW_ZTSA_customer_daily_weekly_monthly_test,2,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA']",0,[]
+SG_Appliance_Service_Status,2,"['slog_ubtaudit', 'SG_Appliance_Registered']",0,[]
+NEW_ZTSA_privat_internet_assess_Riskrule,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",0,[]
+Vision_One_Account_App_Usage_Trending_Network_Intrusion_Prevention_UI,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'Func_NIPS_Use']",0,[]
+Vision_One_Account_App_Usage_Trending_Forensics_And_Analysis,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'Func_Forensics_And_Analysis_Use']",0,[]
+Vision_One_Account_App_Usage_Trending_Forensics_And_Analysis_UI,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'Func_Forensics_And_Analysis_Use']",0,[]
+REPORT_V1_ZTSA,2,"['CLP_WHO_VISIT_ZTSA', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+RA_Assessment_Trigger_WB_Customer,2,"['XDR_created_WB', 'RA_Assessment_Customer']",0,[]
+NEW_ZTSA_Rule_Configured,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",0,[]
+XDR_touched_DIR_Apps,2,"['XDR_touched_OAT', 'XDR_touched_WB_base']",0,[]
+get_customer_ubt_type,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+CE_get_trilogy_features,2,"['TRI_get_enter_page_raw_data', 'TRI_get_ExecutiveDashboard_used_temp']",0,[]
+Pendo_Get_Journey_With_Slog,2,"['xdr_pendo_raw_event', 'slog_ubtaudit']",1,['xdr_pendo_track_types']
+Tree_View_ZTSA,2,"['Func_V1_Accumulated_Cus', 'ZTSA_Customer_CLP_date_time']",0,[]
+TPI_enabled_cus_3rd_sharing_etl,2,"['slog_ubtaudit', 'TPI_sLog_service_gateway_v2']",0,[]
+BIF_email_sensor_daily_snapshot,2,"['slog_ubtaudit', 'CLP_EAI_EMAIL_SENSOR']",1,['cas_product_feedback']
+onelink_get_experience_portal_table,2,"['onelink_get_query_parameter_value_from_url', 'onelink_get_platform']",1,['telemetry_collector']
+Func_NPS_Historical_Data_PII,2,"['v_xdr_pendo_guide_events', 'slog_ubtaudit']",2,"['V1_user_account', 'CLP_Account_License']"
+BIF_credit_allocation_daily_snapshot,2,"['slog_ubtaudit', 'BIF_ZTSA_Credit_Allocation_His']",0,[]
+GET_ZTRI_CUSTOMER_COUNT_BY_RISKFACTOR_AND_SENSORS,2,"['GET_ZERI_SENSOR_LOGCOUNT_DAILY', 'CLP_WHO_INUSE_ZTRI']",0,[]
+vw_C1_Deployed_Instance_new,2,"['vw_C1_Usage_Extend', 'vw_C1_NSVA']",0,[]
+TRI_get_engagement_score,2,"['TRI_get_enabled_data_source_count', 'TRI_get_engagement_score_preprocess']",1,['CLP_Account_License']
+SG2_Appliance_Setting,2,"['slog_ubtaudit', 'SG2_Appliance_Registered']",1,['CLP_Account_License']
+Func_CLP_Account_UBT_Channel,2,"['Poseidon_Voucher_Lines', 'slog_ubtaudit']",2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+CE_get_OAT_engagement_2,2,"['CE_get_OAT_copy_to_clipboard', 'CE_get_OAT_List']",0,[]
+mxdr_get_approval_requests_list,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+CE_get_wb_investigate_rate_bak,2,"['xdr_matomo_events', 'slog_ubtaudit']",6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_action', 'rca_mapping_workbench', 'V1_role']"
+Tree_View_Attack_Surface_Discovery,2,"['TRI_get_enter_page_metrics_unpivot', 'Func_pendo_track_type_mapping']",1,['xdr_pendo_events_flattened']
+TRI_get_enabled_data_source_count,2,"['TRI_get_enabled_data_source_detail', 'Func_Hubble_MAP_Data_Source_Type']",0,[]
+TPI_customer_behavior,2,"['xdr_pendo_raw_event', 'slog_ubtaudit']",0,[]
+CE_get_OAT_engagement,2,"['CE_get_OAT_copy_to_clipboard', 'CE_get_OAT_List_v2']",0,[]
+Assessment_cloudMail,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+DDI_Settings_related_to_SOC_Users,2,"['ddi_Fn_valid_cus', 'ddi_Fn_guid_with_latest_feedback_in_90d']",1,['MAK_Account_GUID']
+tmp_get_customer,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+tmp_get_both_customer,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+Assessment_common_attribute,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Assessment_cloudMail_overview']",1,['CLP_Account_License']
+Reports_generated_successful,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+tmp_get_siem_only_customer,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+tmp_get_ui_only_customer,2,"['mxdr_customer', 'slog_ubtaudit']",0,[]
+CE_get_tad_find_solutions,2,"['xdr_matomo_events', 'slog_ubtaudit']",0,[]
+CLP_WHO_USE_ZTSA,2,"['slog_ubtaudit', 'CLP_WHO_DEPLOY_ZTSA']",2,"['dataLakeMetrics', 'sase_tdl']"
+Tree_View_Attack_Surface_Discovery_bak0223,2,"['Func_V1_Accumulated_Cus', 'Func_pendo_track_type_mapping']",1,['xdr_pendo_events_flattened']
+Func_CLP_Account_UBT,2,"['slog_ubtaudit', 'Func_NPS_In_Past_90days']",6,"['slog_category', 'V1_user_account', 'CLP_Account_License', 'CLP_Account_UBT_Daily', 'Account_Intelligence', 'CLP_Account_License_Daily']"
+CE_get_response_features,2,"['XDR_get_decisive_response', 'XDR_get_investigate_response']",0,[]
+CE_get_security_configure_metrics,2,"['CE_get_dmm_enable_disable', 'CE_get_ti_configure_so']",0,[]
+Func_CLP_Account_CES_Full_Backup_20220218,2,"['slog_ubtaudit', 'CLP_WHO_INUSE_ZTRI']",4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily']"
+CE_get_OAT_investigate_bak,2,"['xdr_matomo_events', 'XDR_get_investigate_response']",1,['V1_role']
+Func_CLP_Account_CES_Manual,2,"['SASE_ACTIVE_CLP_FUNC', 'slog_ubtaudit']",4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily']"
+TRI_get_engagement_score_preprocess,2,"['xdr_matomo_events', 'TRI_get_enter_page_raw_data']",0,[]
+GET_ASSET_CRITICALITY_STAR_CUSTOMER_VISIT_ASSETS,2,"['xdr_matomo_events_v2', 'xdr_matomo_events_get_event_actions']",1,['sase_tdl']
+NI_flywheel_30_credit_Cus,2,"['slog_ubtaudit', 'NI_customer_base']",0,[]
+RI_general_feature,2,"['RI_mitigate_or_prevent_risk_feature', 'RI_access_risk_feature']",1,['xdr_pendo_events_flattened']
+CLP_WHO_ACTIVE_EAI,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+CLP_WHO_PROVISION_EAI,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+Revenue_Suite_Item_List,2,"['GetCurrentMonth', 'Invoice_Detail']",0,[]
+Revenue_Suite_List,2,"['GetCurrentMonth', 'Invoice_Detail']",0,[]
+Revenue_Trending,2,"['GetCurrentMonth', 'Invoice_Detail']",0,[]
+Revenue_YTD,2,"['GetCurrentMonth', 'Invoice_Detail']",0,[]
+Func_Security_Playbook_Use_Jerry,2,"['xdr_matomo_events', 'slog_ubtaudit']",3,"['trilogy3_wae_triggered_task', 'V1_role', 'trilogy3_wae_playbook']"
+V1_Flywheel_Product_Campaign_Promotion_Onboard,2,"['slog_trace', 'slog_ubtaudit']",1,['CLP_Account_License']
+Func_Security_Playbook_Use_Temp,2,"['xdr_matomo_events', 'slog_ubtaudit']",2,"['trilogy3_wae_triggered_task', 'trilogy3_wae_playbook']"
+Func_Security_Playbook_Use,2,"['xdr_matomo_events', 'slog_ubtaudit']",3,"['trilogy3_wae_triggered_task', 'V1_role', 'trilogy3_wae_playbook']"
+ZTSA_customer_Rule_Configuration,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",0,[]
+Func_Hubble_MAP_Data_Source_By_Risk_Factor,2,"['GET_TRILOGY_PRODUCT_CODE_MAPPING', 'Func_Hubble_MAP_Data_Source_Type']",0,[]
+NI_ddi_connection_status_daily,2,"['slog_system', 'NI_customer_base_daily']",0,[]
+V1_Feature_Adoption_Change,2,"['slog_ubtaudit', 'GET_FEATURE_ADOPTION_RATE']",0,[]
+NI_ddi_connection_status,2,"['slog_system', 'NI_customer_base']",0,[]
+XDR_adv_features_DIR_Apps,2,"['XDR_adv_features_Search', 'XDR_adv_features_OAT']",0,[]
+NI_onboard_customers_daily,2,"['slog_system', 'NI_customer_base_daily']",0,[]
+Trilogy_Enabled_Data_Source,2,"['GET_ZTRI_SENSOR_STATUS_RAW', 'GET_TRILOGY_SENSOR_LOGS']",3,"['CLP_Account_License', 'CLP_Account_UBT_Daily', 'V1_Engagement_Score']"
+XDR_investigate_DIR_Apps,2,"['XDR_get_OAT_investigate', 'XDR_get_workbench_investigate']",0,[]
+BIF_Service_Gateway_Service_Enable,2,"['slog_ubtaudit', 'BIF_Service_Gateway_Appliance']",1,['CLP_Account_License']
+DVASS_Get_Endpoint_Metrics,2,"['DVASS_Get_Vulnerability_detail', 'DVASS_Get_Endpoint_Information']",0,[]
+NI_onboard_customers,2,"['slog_system', 'NI_customer_base']",0,[]
+CLP_WHO_CREDIT_EAI,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+CES2_Workflow_and_Automation,2,"['XDR_get_decisive_response', 'Func_Security_Playbook_Use_CES']",1,['xdr_pendo_raw_events']
+CLP_EAI_EMAIL_SENSOR,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+ZTSA_ZTNA_Debug,2,"['slog_ubtaudit', 'CLP_WHO_USE_ZTSA']",4,"['xdr_pendo_events_flattened', 'sase_tdl', 'xdr_xbc_agent_run_result', 'xdr_endpoint_agent']"
+get_incidentview_info,2,"['slog_trace', 'alert_mapping_product_layer']",1,['pte_workbench']
+NI_onboard_customers_Louis_Temp,2,"['slog_system', 'NI_customer_base']",0,[]
+NI_onboard_customers_daily_Louis_Temp,2,"['slog_system', 'NI_customer_base_daily']",0,[]
+ddi_Fn_template_003_active_cus_ddi_latest_feedback,2,"['ddi_Fn_guid_with_latest_feedback_in_1d', 'ddi_Fn_valid_cus']",1,['MAK_Account_GUID']
+ZTSA_Customer_CLP_date_time,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",2,"['dataLakeMetrics', 'CLP_Account_License']"
+ddi_Fn_template_002_valid_cus_ddi_latest_feedback_in_90d,2,"['ddi_Fn_valid_cus', 'ddi_Fn_guid_with_latest_feedback_in_90d']",1,['MAK_Account_GUID']
+CLP_WHO_INUSE_ZTRI,2,"['GET_ZERI_SENSOR_LOGCOUNT_DAILY', 'CLP_WHO_VISIT_ZTRI']",2,"['dataLakeMetrics', 'sase_tdl']"
+CLP_WHO_VISIT_V1_DAILY,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+CLP_WHO_INUSE_ZTSA,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Get_ZTSA_Rules']",0,[]
+Assessment_cloudMail_overview,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+Vision_One_Account_App_Usage_Detail,2,"['slog_ubtaudit_pii', 'slog_ubtaudit']",1,['CLP_Account_License']
+Vision_One_Account_User_Role_list,2,"['slog_ubtaudit_pii', 'slog_ubtaudit']",1,['CLP_Account_License']
+XDR_touched_OAT,2,"['xdr_matomo_events', 'slog_ubtaudit']",1,['V1_role']
+CLP_WHO_VISIT_V1,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+ZTSA_CLP_Score_Raw_v2,2,"['Get_ZTSA_Rules', 'CLP_WHO_USE_ZTSA']",4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl', 'xdr_pendo_raw_events']"
+V1_Current_Onboard_Customer_3rd_Party_Integration_Employee,2,"['slog_ubtaudit', 'V1_Current_Onboard_Customer_Console_Usage_Employee']",0,[]
+ZTSA_Customer_CLP,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",1,['CLP_Account_License']
+GET_ZERI_CUSTOMER_COUNT_BY_RISKFACTOR_AND_SENSORS,2,"['GET_ZERI_SENSOR_LOGCOUNT_DAILY', 'CLP_WHO_INUSE_ZTRI']",0,[]
+ZTSA_Credit_CLP_Info,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",1,['CLP_Account_License']
+V1_Current_Onboard_Customer_3rd_Party_Integration,2,"['slog_ubtaudit', 'V1_Current_Onboard_Customer_Console_Usage']",0,[]
+CLP_WHO_INUSE_ZTRI_DAILY,2,"['CLP_WHO_VISIT_ZTRI_DAILY', 'GET_ZERI_SENSOR_LOGCOUNT_DAILY']",2,"['dataLakeMetrics', 'sase_tdl']"
+ZTSA_CLP_Score_Raw,2,"['Get_ZTSA_Rules', 'CLP_WHO_USE_ZTSA']",3,"['xdr_pendo_events_flattened', 'sase_tdl', 'xdr_pendo_raw_events']"
+R2209R2211MainConsoleDetailAnalysis,2,"['R2209User', 'R2211User']",1,['telemetry_collector_ti']
+Trial_Credit_Customer_Detail,2,"['CE_get_wb_severity_touch', 'Credit_Customer_Source']",4,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Daily', 'V1_Engagement_Score']"
+R2211VPN,2,"['R2211User', 'R2301VPN']",1,['telemetry_collector_ti']
+Reports_InUse_Daily,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Inuse']",0,[]
+Reports_Overview_Before_30d,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Visit']",0,[]
+Vision_One_Account_App_Usage_Trending_Attack_Surface_Discovery_UI,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'TRI_get_enter_page_raw_data']",0,[]
+Vision_One_Account_App_Usage_Trending_Executive_Dashboard_UI,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'TRI_get_enter_page_raw_data']",0,[]
+Vision_One_Account_App_Usage_Trending_Report_Management_UI,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'Reports_Inuse']",0,[]
+ZTSA_Permssion_Access_Deployment_30d_Old,2,"['slog_ubtaudit', 'SASE_EXTERNAL_CLP_FUNC_V2']",1,['CLP_Account_License']
+App_visit,2,"['xdr_pendo_raw_event', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+Vision_One_Account_Summary_Risk_Insight_Data_Source_Mapping,2,"['Func_Hubble_MAP_Data_Source_Type', 'Func_Hubble_MAP_Data_Source_By_Risk_Factor']",0,[]
+Func_C1_Account_License,2,"['vw_C1_Subscription', 'vw_C1_Entitlement_Daily_Extend']",10,"['C1_Account_Usage_Daily', 'CLP_Account_UBT', 'CLP_Account_UBT_Daily', 'C1_Account_Usage', 'Ref_Valid_Customer_Details_Suite_L2', 'C1_Account_Usage_Raw', 'AWS_Channel_Daily', 'MAK_Channel_Daily', 'CDE_Product_Hierarchy', 'C1_Account_Mapping']"
+XDR_get_search_investigate,2,"['slog_ubtaudit', 'XDR_get_investigate_response']",0,[]
+XDR_get_workbench_investigate,2,"['xdr_matomo_events', 'slog_ubtaudit']",6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_action', 'rca_mapping_workbench', 'V1_role']"
+CE_get_investigate_metrics,2,"['XDR_get_OAT_investigate', 'XDR_get_workbench_investigate']",0,[]
+onelink_get_install_table,2,"['onelink_get_web_click_table', 'onelink_get_app_launch_table']",0,[]
+Reports_Visit_CLP,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Visit']",0,[]
+CE_get_wb_touch_rate,2,"['XDR_touched_WB', 'XDR_touched_WB_include_export']",0,[]
+NEW_ZTSA_customer_MOM,2,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA']",0,[]
+NEW_ZTSA_customer_daily_weekly_monthly,2,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA']",0,[]
+Tree_View_SO_Management,2,"['slog_trace', 'slog_ubtaudit']",2,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily']"
+NEW_ZTSA_customers_daily_weekly_monthly,2,"['CLP_WHO_VISIT_V1', 'CLP_WHO_VISIT_ZTSA']",0,[]
+vw_C1_Deployed_Instance,2,"['vw_C1_Usage_Extend', 'vw_C1_NSVA']",0,[]
+RA_Assessment_Completed_Customer,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+GET_ZTRI_SENSOR_STATUS,2,"['CLP_WHO_INUSE_ZTRI', 'GET_ZTRI_SENSOR_STATUS_RAW']",0,[]
+vw_C1_Deployed_Instance_by_Dimension,2,"['vw_C1_Usage_Extend', 'vw_C1_NSVA']",0,[]
+CE_get_wb_severity_touch,2,"['XDR_created_WB', 'slog_ubtaudit']",0,[]
+CE_get_wb_investigate_rate,2,"['xdr_matomo_events', 'slog_ubtaudit']",6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_action', 'rca_mapping_workbench', 'V1_role']"
+BIF_email_sensor_daily_snapshot_new,2,"['slog_ubtaudit', 'CLP_EAI_EMAIL_SENSOR']",1,['cas_product_feedback']
+Reports_InUse_30d,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Inuse']",1,['CLP_Account_License']
+Reports_Overview,2,"['Reports_Overview_Latest_30d', 'Reports_Overview_Before_30d']",0,[]
+onelink_get_web_click_table,2,"['onelink_fix_additional_info', 'onelink_map_prod_url_to_destination']",1,['telemetry_collector']
+ZTSA_ZTNA_Debug_V1,2,"['slog_ubtaudit', 'CLP_WHO_USE_ZTSA']",4,"['xdr_pendo_events_flattened', 'sase_tdl', 'xdr_xbc_agent_run_result', 'xdr_endpoint_agent']"
+Reports_Schedule_Frequncy,2,"['slog_ubtaudit', 'CLP_WITH_V1_ACTIVE_LICENSE_DAILY']",0,[]
+Reports_Overview_Latest_30d,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_Visit']",0,[]
+BIF_Service_Gateway_Service_Customer_Enable,2,"['SG_Appliance_Service_Status', 'SG_Appliance_Service_Status_2']",1,['CLP_Account_License']
+ddi_Fn_template_001_valid_cus_ddi_latest_feedback,2,"['ddi_Fn_guid_with_latest_feedback', 'ddi_Fn_valid_cus']",1,['MAK_Account_GUID']
+Reports_Generated_CLP_30d,2,"['CLP_WITH_V1_ACTIVE_LICENSE_DAILY', 'Reports_generated_successful']",0,[]
+Vision_One_Account_App_Usage_Trending_slog,2,"['Vision_One_Account_App_Usage_Get_CLP_By_MAK', 'slog_ubtaudit']",0,[]
+ZTSA_Customer_CLP_date_overviewv2,2,"['slog_ubtaudit', 'CES2_Zero_Trust_Secure_Accessv2']",0,[]
+BIF_network_sensor_daily_snapshot_20211221_backup_before_new_logic,1,['slog_ubtaudit'],0,[]
+Func_CLP_Account_Pre_Daily_Job_DQ,1,['xdr_endopoint_agent_daily_snapshot_view'],5,"['MAK_iES_Sensor_Count', 'CLP_Account_License', 'CLP_Account_UBT_Acknowledge_DQ', 'CLP_Account_License_Daily', 'credit_allocation_daily_snapshot']"
+FW_Promotion_With_Customer_Log,1,['slog_ubtaudit'],0,[]
+RI_Risk_Reduction_Measure_Released_CLP_ID_List,1,['T_CLP'],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+CE_get_ztri_adv_metrics,1,['slog_ubtaudit'],0,[]
+ZTSA_Permssion_Access_Deployment_30d,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'xdr_endpoint_agent']"
+TRI_get_enter_page_raw_data,1,['Func_pendo_track_type_mapping'],1,['xdr_pendo_events_flattened']
+CE_get_tad_deploy_sensors,1,['xdr_matomo_events'],0,[]
+CE_get_wb_close_rate,1,['slog_ubtaudit'],0,[]
+ZTSA_Rule_Hit_Times_30d,1,['CLP_WHO_INUSE_ZTSA'],1,['sase_tdl']
+CE_get_wb_decisive_response_rate,1,['slog_ubtaudit'],0,[]
+ZTSA_Visited_Customer_30d,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+SG_Appliance_Registered_new,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CLP_WHO_ELIGIBLE_ZTSA,1,['CLP_WHO_VISIT_ZTSA'],1,['sase_tdl']
+CE_get_wb_FP_close_rate,1,['slog_ubtaudit'],0,[]
+CLP_WHO_VISIT_ZTSA,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],1,['xdr_pendo_events_flattened']
+CE_get_tad_feature_enable_status,1,['slog_ubtaudit'],0,[]
+FW_Credit_Usage_Log,1,['slog_ubtaudit'],0,[]
+Trial_Credit_Cus_Flatten_Table_CLP,1,['Credit_Usage_Table'],2,"['CLP_Account_UBT_Daily', 'CLP_Account_License_Daily']"
+Func_Sandbox_Response_Submission,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_OAT_List,1,['slog_ubtaudit'],0,[]
+XDR_touched_WB,1,['XDR_touched_WB_base'],0,[]
+Func_Product_Connect_Status,1,['slog_ubtaudit'],1,['CLP_Account_License']
+XDR_touched_WB_v2,1,['slog_ubtaudit'],0,[]
+XDR_get_investigate_response,1,['slog_ubtaudit'],0,[]
+Func_Product_Connect_Status_Hubble,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_OAT_List_without_sth,1,['slog_ubtaudit'],0,[]
+Func_Sandbox_Manually_Submission,1,['slog_ubtaudit'],1,['CLP_Account_License']
+Func_Flywheel_Onboarding_Log,1,['slog_ubtaudit'],0,[]
+CE_get_search_investigate,1,['XDR_get_search_investigate'],0,[]
+Credit_Usage_Table_MAK,1,['Credit_Usage_Table'],1,['CLP_Account_License']
+FW_OnboardingResult_With_CompanyID_Log,1,['slog_trace'],0,[]
+XDR_get_decisive_response,1,['slog_ubtaudit'],0,[]
+TRI_get_enter_page_metrics_bak,1,['TRI_get_enter_page_raw_data'],0,[]
+Trial_Credit_Cus_Flatten_Table_MAK,1,['Credit_Usage_Table_MAK'],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+FW_Full_Promotion_With_Customer_Log,1,['slog_trace'],0,[]
+ZTSA_Accumulated_In_Use_Customer,1,['CLP_WHO_INUSE_ZTSA'],0,[]
+CE_get_wb_visit,1,['slog_ubtaudit'],0,[]
+XDR_touched_WB_include_export,1,['slog_ubtaudit'],0,[]
+CLP_WHO_VISIT_V1_TEST,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+GET_V1_WAA_PAGE,1,['GET_V1_TPC_PAGE'],0,[]
+NEW_ZTSA_Accumulated_Customer,1,['CLP_WHO_DEPLOY_ZTSA'],0,[]
+RA_Assessment_Enable_Sensor_Customer,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],1,['xdr_pendo_events_flattened']
+CE_get_wb_investigate_detail,1,['XDR_get_workbench_investigate'],0,[]
+CE_get_wb_visit_by_API,1,['slog_ubtaudit'],0,[]
+Func_V1_Deployed_bySensor_Summary,1,['Func_V1_Deployed_bySensor'],0,[]
+CE_get_wb_TP_or_FP_closed,1,['slog_ubtaudit'],0,[]
+CE_get_add_exception_metrics,1,['slog_ubtaudit'],0,[]
+Trilogy_Security_Control_Feature_Adoption_Change,1,['GET_FEATURE_ADOPTION_RATE'],0,[]
+CE_get_decisive_response_metrics,1,['XDR_get_decisive_response'],0,[]
+Reports_Accumulated_CLP_And_Reports,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+BIF_Service_Gateway_Appliance,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_search_watchlist_features,1,['slog_ubtaudit'],0,[]
+FW_Promotion_BSP_Log,1,['slog_ubtaudit'],0,[]
+CLP_WHO_USE_ZTSA_test,1,['slog_ubtaudit'],2,"['dataLakeMetrics', 'sase_tdl']"
+Func_C1_Account_Mapping,1,['slog_ubtaudit'],20,"['c1_account_lifecycle', 'CUS_Registered_Account_Profile', 'c1_entitlement', 'AWSM_Account_Feed_ADX', 'c1_testing_account_dump20210812', 'awsm_daily_usage', 'DS_AWSM_Country_BU_Mapping', 'REV_Sales_Inv_Lines_AWSM', 'MAP_FIN_Region_BU', 'c1_pendo_track_events', 'c1_missing_country_dump20210930', 'CDE_Data_Source', 'CUS_Account_Profile', 'CUS_Account_Key_Map', 'dataLakeAPI', 'C1_Account_Mapping', 'C1_entitlement_dump20210728', 'C1_SFDC_Account_Mapping', 'C1_Usage', 'c1_subscription_lifecycle']"
+Func_C1_Entitlement_Daily,1,['vw_C1_Entitlement'],0,[]
+Func_AWS_Channel_Daily,1,['vw_C1_Subscription'],3,"['awsm_daily_usage', 'REV_Sales_Inv_Lines_AWSM', 'AWSM_Offer_Feed']"
+private_slog_ubtaudit_pii,1,['slog_ubtaudit_pii'],0,[]
+Assessment_cloudMail_start_acc,1,['slog_ubtaudit'],0,[]
+NEW_ZTSA_visit_customer_Main_Entries_sourcev2,1,['NEW_ZTSA_visit_customer_Main_Entries_source'],0,[]
+NEW_ZTSA_deploy_rule_configure,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+Func_C1_Deployed_Ins,1,['Func_C1_Mapping'],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+BIF_email_sensor_daily_snapshot_to_use_0617,1,['slog_ubtaudit'],1,['cas_product_feedback']
+BIF_email_sensor_daily_snapshot_20220325_backup_before_new_logic,1,['slog_ubtaudit'],1,['cas_product_feedback']
+CE_get_wb_touch_by_API,1,['slog_ubtaudit'],0,[]
+Reports_Visit_tab,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+Func_Sandbox_Submission,1,['slog_ubtaudit'],1,['CLP_Account_License']
+V1_Mobile_Console_Weekly_Report,1,['V1_Mobile_Console_Data'],0,[]
+CLP_WHO_VISIT_ZTRI_DAILY_withuser,1,['CLP_WHO_VISIT_V1'],1,['xdr_pendo_events_flattened']
+Func_SG2_Register,1,['slog_ubtaudit'],0,[]
+Func_SG2_enable,1,['slog_ubtaudit'],1,['SG2_Registered_guid']
+GET_IF_CUSTOMERS,1,['xdr_pendo_raw_event'],0,[]
+xxx_Func_App_Usage_Per_Day_CLP,1,['slog_ubtaudit'],0,[]
+V1_Current_Onboard_Customer_Console_Usage,1,['V1_Current_Onboard_Customer_Seat_Range'],1,['CLP_Account_UBT_Daily']
+PARSE_V1_UI_RAW_DATA_V2,1,['GET_XPATH_CODE_V2'],1,['xdr_pendo_raw_events']
+V1_UBT_SUMMARY_V2,1,['V1_UBT_SUMMARY_SESSION'],0,[]
+V1_Current_Onboard_Customer_Console_Usage_Employee,1,['V1_Current_Onboard_Customer_Seat_Range'],1,['CLP_Account_UBT_Daily']
+Func_CLP_Account_License,1,['slog_ubtaudit'],5,"['CLP_Account_License', 'ARL_Customer_Annual_Value', 'SCH_Partner_Account', 'CLP_Account_License_Daily', 'CDE_Product_Hierarchy']"
+Track_Type_Average_Retention_Cohort,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+GET_IF_CUSTOMERS_V2,1,['xdr_pendo_raw_event'],0,[]
+XDR_touched_DIR_Apps_exp,1,['XDR_touched_OAT'],0,[]
+Reports_schedule_funnel,1,['Reports_shcedule'],0,[]
+Reports_onetime_funnel,1,['Reports_Onetime'],0,[]
+Trilogy_retention_rate,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+_DS_Server_Setting_for_Early_Warning,1,['DS_File_List'],3,"['ds_product_feedback', 'MAK_Account_GUID', 'ds_host']"
+_DS_Agent_Setting_for_Early_Warning,1,['DS_File_List'],3,"['ds_product_feedback', 'MAK_Account_GUID', 'ds_host']"
+_C1WS_Server_Setting_for_Early_Warning,1,['DS_File_List'],3,"['ds_product_feedback', 'MAK_Account_GUID', 'ds_host']"
+_C1WS_Agent_Setting_for_Early_Warning,1,['DS_File_List'],3,"['ds_product_feedback', 'MAK_Account_GUID', 'ds_host']"
+CLP_WHO_VISIT_EAI,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+Reports_Overview_Funnel,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],1,['sase_tdl']
+Assessment_cloudMail_start,1,['slog_ubtaudit'],0,[]
+RA_Assessment_Customer_Company_Size,1,['RA_Assessment_Customer'],2,"['MAK_Account_License', 'Assessment_Data']"
+CE_get_wb_close_rate_bak,1,['slog_ubtaudit'],0,[]
+GET_ATTACK_PROTECTION_LATER,1,['GET_PCODE_PROTECTION_LAYER'],1,['sase_tdl']
+CE_get_wb_FP_close_rate_bak,1,['slog_ubtaudit'],0,[]
+SWG_customer_usage,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_wb_visit_bak,1,['slog_ubtaudit'],0,[]
+XDR_get_decisive_response_bak,1,['slog_ubtaudit'],0,[]
+XDR_touched_WB_v2_bak,1,['slog_ubtaudit'],0,[]
+XDR_touched_WB_include_export_bak,1,['slog_ubtaudit'],0,[]
+XDR_touched_WB_bak,1,['XDR_touched_WB_base'],0,[]
+White_label_partners,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'dataLakeAPI']"
+vw_C1_Deployed_Instance_by_Dimension_exp,1,['vw_C1_NSVA'],0,[]
+vw_C1_Deployed_Instance_exp,1,['vw_C1_NSVA'],0,[]
+RA_Assessment_Customer_EPP_Data,1,['RA_Assessment_Customer'],1,['xdr_xbc_agent_run_result']
+vw_C1_Deployed_Instance_by_FreeTier_exp,1,['vw_C1_NSVA'],0,[]
+ZTSA_ZTNA_Get_Track_Event,1,['ZTSA_ZTNA_Get_Track'],0,[]
+Func_C1_Customer_Ins_new,1,['Func_C1_Mapping'],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+Credit_inApp_Promotion_Flatten_table,1,['Credit_Usage_Table'],2,"['CLP_Account_License', '_slog_ubtaudit']"
+Func_C1_Deployed_Ins_new,1,['Func_C1_Mapping'],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+V1_Trial_Customer_Performance_Metrics,1,['slog_ubtaudit'],6,"['slog_category', 'xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily', '_slog_ubtaudit']"
+_DS_Server_Setting_for_Early_Warning_BIF,1,['DS_File_List'],3,"['ds_product_feedback', 'MAK_Account_GUID', 'ds_host']"
+_DDI_Setting_for_Early_Warning,1,['DDI_Valid_Cus'],2,"['MAK_Account_GUID', 'ddi_product_feedback']"
+TRI_get_enabled_data_source_count_bak,1,['TRI_get_enabled_data_source_detail'],0,[]
+CE_get_wb_decisive_response_rate_bak,1,['slog_ubtaudit'],0,[]
+CE_get_search_investigate_bak,1,['XDR_get_investigate_response'],0,[]
+GET_TRILOGY_SENSOR_LOGS,1,['GET_PRODUCTCODE_FROM_LOGSOURCE'],0,[]
+CE_get_OAT_List_without_sth_bak,1,['slog_ubtaudit'],0,[]
+enable_user_account_related_data_source_cus_list,1,['TRI_get_enabled_data_source_detail'],0,[]
+ZTSA_SWG_Active_User_Info,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],2,"['V1_Account_Info', 'sase_temp']"
+RA_Completed_Assessment_Customer,1,['slog_ubtaudit'],0,[]
+NEW_ZTSA_privateassess_customers_daily,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+enable_user_account_aad_cus_list,1,['TRI_get_enabled_data_source_detail'],0,[]
+Reports_scheduled_successful,1,['slog_system'],0,[]
+Func_C1_Customer_Usage,1,['vw_C1_Deployed_Instance'],1,['C1_Account_License']
+TRI_get_enabled_data_source_count_Monica,1,['TRI_get_enabled_data_source_detail_Monica'],0,[]
+GET_ZTRI_SENSOR_LOGS_V2,1,['GET_PRODUCTCODE_FROM_LOGSOURCE'],1,['dataLakeMetrics']
+NEW_ZTSA_IAM_Customer_daily,1,['Get_ZTSA_Rules'],1,['sase_tdl']
+NEW_ZTSA_IAM_Customer_wth_Enduser,1,['Get_ZTSA_Rules'],2,"['dataLakeMetrics', 'sase_tdl']"
+NEW_ZTSA_visit_customer_Main_Entries_source,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+NEW_ZTSA_deployed_Customer_seat_range,1,['CLP_WHO_DEPLOY_ZTSA'],1,['CLP_Account_License']
+NEW_ZTSA_Daily_Weekly_Monthly_Customer,1,['CLP_WHO_DEPLOY_ZTSA'],0,[]
+fed_ubt,1,['xdr_matomo_events'],1,['tmsas_matomo_log_action_v2']
+Func_C1_Customer_Ins,1,['Func_C1_Mapping'],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+vw_C1_Entitlement,1,['vw_C1_Subscription'],3,"['c1_entitlement', 'C1_entitlement_dump20210728', 'azure_subscribers_legacy_dump20211029']"
+V1_Onboard_Customer_Count_by_Sensor_Type_Trendinggg,1,['Func_V1_haha'],0,[]
+vw_C1_Account_Usage_by_Level,1,['vw_CDE_C1_Sub_Channel'],1,['C1_Account_Usage_Raw']
+GET_DISCOVERED_ATTACK_SURFACE,1,['GET_DISCOVERED_ATTACK_SURFACE_RAW3'],0,[]
+CE_get_OAT_List_bak,1,['slog_ubtaudit'],0,[]
+ZTSA_ZTNA_Basic_Get_Change,1,['ZTSA_ZTNA_Basic_Get_Configuration'],0,[]
+CE_get_hunter_app_features,1,['XDR_visit_DIR_Apps'],0,[]
+fed_js_error,1,['fed_ubt'],0,[]
+R2209MainConsoleStatus,1,['R2209User'],1,['telemetry_collector_ti']
+SG2_Appliance_Registered,1,['slog_ubtaudit'],1,['CLP_Account_License']
+TPI_sLog_intelligence_Feeds,1,['slog_ubtaudit'],0,[]
+ZTSA_ZTNA_Basic_Get_License,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],1,['CLP_Account_License']
+SG2_Cus_Registered,1,['slog_ubtaudit'],1,['CLP_Account_License']
+demo,1,['slog_ubtaudit'],0,[]
+AutpPayGuard,1,['R2209User'],1,['telemetry_collector_ti']
+XDR_created_WB,1,['slog_trace'],0,[]
+XDR_cus_not_expire,1,['slog_ubtaudit'],1,['CLP_Account_License']
+Vision_One_Account_Summary_HUB_15_New,1,['Func_Hubble_CLP_Account_UBT_Addon'],3,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_CES_Daily']"
+R2208PayGuard,1,['R2208User'],1,['telemetry_collector_ti']
+NEW_ZTSA_hitrule_device,1,['slog_ubtaudit'],0,[]
+Vision_One_NPS_Summary,1,['Func_NPS_Historical_Data_PII'],0,[]
+Tree_View_Report_Management_App,1,['Reports_download'],1,['xdr_pendo_raw_events']
+Vision_One_NPS_Detail,1,['Func_NPS_Historical_Data_PII'],0,[]
+NEW_ZTSA_accumulated_private_internet_temp,1,['CLP_WHO_USE_ZTSA'],1,['sase_tdl']
+Vision_One_Account_App_Usage_Trending_Mobile_Inventory_UI,1,['Vision_One_Account_App_Usage_Get_CLP_By_MAK'],1,['xdr_pendo_feature_events']
+NEW_ZTSA_rule_enforcement_customers_temp,1,['CLP_WHO_USE_ZTSA'],1,['sase_tdl']
+DVASS_UI_Page_Visit,1,['DVASS_Get_UI_Interaction'],0,[]
+GetDataSoucreMaxDate,1,['C1_Account_License_Daily'],5,"['C1_Account_Usage_Daily', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily', 'CLP_Account_CES_Daily', 'C1_Account_License_Daily']"
+Vision_One_Account_App_Usage_Trending_Campaign_Intel_UI,1,['Vision_One_Account_App_Usage_Get_CLP_By_MAK'],1,['xdr_pendo_events_flattened']
+R22Q3DownloadScanPopup,1,['R22Q3Users'],1,['telemetry_collector_ti']
+n1_cus_feature_pool,1,['slog_ubtaudit'],5,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_UBT', 'V1_Engagement_Score', 'MAK_Account_License']"
+ZTSA_Credit_CLP_Info_V2,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+REPORT_V1_ACTIVE_LICENSE_DAILY,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],0,[]
+ZTSA_ZTNA_Basic_Get_IAM,1,['slog_ubtaudit'],1,['sase_tdl']
+Func_V1_App_Usage_by_CLP,1,['XDR_created_WB'],1,['V1_App_Usage']
+TPI_sLog_3rd_sharing,1,['slog_ubtaudit'],0,[]
+TPI_sLog_service_gateway,1,['slog_ubtaudit'],0,[]
+Tree_View_Network_Inventory_App,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily']"
+Tree_View_Network_Intrusion_Prevention_App,1,['TRI_get_enabled_data_source_detail'],7,"['xdr_pendo_events_flattened', 'V1_user_account', 'CLP_Account_License', 'CLP_Account_UBT_Daily', 'Dim_Product', 'DvassEndpointNotification', 'Fact_Sold_Output_Data']"
+ZTSA_ZTNA_Basic_Get_SSO,1,['slog_ubtaudit'],3,"['V1_user_account', 'CLP_Account_License', 'Poseidon_Idp_Federation_snapshot']"
+ZTSA_ZTNA_Basic_Get_Connector,1,['slog_ubtaudit'],0,[]
+BIF_endpoint_sensor_daily_snapshot,1,['xdr_endpoint_agent_daily_snapshot_view_new'],1,['xdr_endpoint_agent']
+Func_CLP_Account_UBT_V1_Report,1,['Func_CLP_Account_UBT_Simple'],0,[]
+BIF_network_sensor_daily_snapshot,1,['NI_ddi_connection_status_daily'],0,[]
+MyFunction1,1,['slog_ubtaudit'],0,[]
+etl_get_pwp_user,1,['etl_biz_keys_by_product'],8,"['connext_packages', 'tm_account', 'pwp_seats', 'connext_licenses', 'product_channel_sourceid', 'tc_unique_device', 'pwp_licenses', 'connextv2_entitlements']"
+ZTSA_ZTNA_Basic_Get_SWG,1,['slog_ubtaudit'],0,[]
+slog_trace_appendlostdata,1,['slog_trace'],1,['slog_trace_es']
+Pendo_Get_Raw_Track,1,['xdr_pendo_raw_event'],1,['xdr_pendo_track_types']
+slog_appendlostdata,1,['slog_ubtaudit'],1,['slog_esbk']
+TPI_status_intelligenceFeed,1,['TPI_sLog_intelligence_Feeds'],0,[]
+Func_CLP_Account_UBT_Extract,1,['Func_CLP_Account_UBT'],0,[]
+fed_js_error_series,1,['fed_js_error'],0,[]
+R2207R2208MobileFunnel,1,['onelink_fix_additional_info'],2,"['telemetry_collector', 'telemetry_collector_ti']"
+BIF_network_sensor_snapshot,1,['slog_ubtaudit'],0,[]
+TPI_sLog_stix_shifter,1,['slog_ubtaudit'],0,[]
+XDR_get_DAU_WAU,1,['slog_ubtaudit'],0,[]
+BIF_endpoint_sensor_daily_snapshot_new,1,['xdr_endopoint_agent_daily_snapshot_view'],0,[]
+TPI_sLog_TI,1,['slog_ubtaudit'],0,[]
+TPI_sLog_WB_SIEM,1,['slog_ubtaudit'],0,[]
+R2211OMS,1,['R2211User'],1,['telemetry_collector_ti']
+REPORT_VISIT_V1,1,['CLP_WHO_VISIT_V1'],0,[]
+R2211MainConsoleStatus,1,['R2211User'],1,['telemetry_collector_ti']
+GetChurnRate,1,['Fn_Customer_Churn_Rate'],0,[]
+platinum_titanium_settings_status_generate_result,1,['platinum_titanium_settings_status_get_column_count'],0,[]
+etl_get_pwm_cloud_mode_user,1,['etl_biz_keys_by_product'],3,"['tm_account', 'pwm_feature_usage', 'tc_unique_device']"
+Func_V1_OpenApi_Ubt,1,['slog_ubtaudit'],1,['slog_ubt_openapi']
+Invoice_Detail,1,['GetCurrentMonth'],0,[]
+Vision_One_Account_Contact_App_Usage_Past_30d,1,['slog_ubtaudit_pii'],2,"['CLP_Account_UBT', '_slog_ubtaudit']"
+CLP_WHO_VISIT_TRILOGY_RI,1,['CLP_WHO_VISIT_V1'],0,[]
+ZTSA_Credit_CLP_Info_Daily,1,['slog_ubtaudit'],1,['CLP_Account_License']
+NI_customer_flatten_data,1,['NI_onboard_customers_Louis_Temp'],3,"['CLP_Account_License', 'CLP_Account_UBT_Daily', 'MAK_Account_License']"
+etl_get_legalshield_metrics,1,['etl_get_legalshield_latest_subscription_count'],8,"['partner_integration_report', 'eclog', 'telemetry_collector', 'connext_packages', 'pwp_user', 'legalshield_licenses', 'connext_licenses', 'connext_seats']"
+ZTSA_Customer_CLP_MOM,1,['ZTSA_Customer_CLP'],0,[]
+NI_customer_ddi_deployed_type,1,['NI_onboard_customers_Louis_Temp'],1,['ddi_product_feedback']
+XDR_adv_features_OAT,1,['slog_ubtaudit'],0,[]
+etl_get_titanium_legalshield_weekly_report_metrics,1,['etl_get_legalshield_latest_subscription_count'],1,['partner_integration_report']
+legalshield_man_sn_hotfix,1,['etl_get_legalshield_latest_subscription_count'],8,"['partner_integration_report', 'eclog', 'telemetry_collector', 'connext_packages', 'pwp_user', 'legalshield_licenses', 'connext_licenses', 'connext_seats']"
+XDR_adv_features_Search,1,['slog_ubtaudit'],0,[]
+Func_Forensics_And_Analysis_Use,1,['xdr_matomo_events'],3,"['xdr_pendo_events_flattened', 'V1_user_account', 'CLP_Account_License']"
+Vision_One_Account_Summary,1,['Func_Hubble_CLP_Account_UBT_Addon'],3,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_CES_Daily']"
+CES2_Sensor_Deployment,1,['Func_Hubble_MAP_Data_Source_Type'],3,"['trilogyDataAPI', 'CLP_Account_UBT_Daily', 'CLP_Account_Risk_Insights_UBT_Daily']"
+CES2_V1_Login,1,['slog_ubtaudit'],0,[]
+PARSE_V1_UI_RAW_DATA,1,['GET_XPATH_CODE_V2'],1,['xdr_pendo_raw_events']
+Func_V1_Product_Connect_Status_for_Tableau,1,['Func_Product_Connect_PRD_Mapping'],1,['CLP_Account_License']
+ZTSA_Customer_CLP_date_overview,1,['slog_ubtaudit'],0,[]
+DVASS_Get_CLP_DataSource,1,['GET_TRILOGY_SENSOR_LOGS'],1,['DvassEndpointNotification']
+CES2_Threat_Intelligence,1,['slog_ubtaudit'],4,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily', 'xdr_pendo_features', 'xdr_pendo_feature_events']"
+etl_get_tmms_weekly_report_metrics,1,['etl_get_tmms_weekly_report_active_licenses'],5,"['mobilesecurity_user_daily', 'country_alias', 'tm_account', 'connext_licenses', 'connext_seats']"
+REPORT_VISIT_ZTSA,1,['CLP_WHO_VISIT_ZTSA'],0,[]
+R2301EmailDefender,1,['R2301User'],1,['telemetry_collector_carbon']
+REPORT_DEPLOY_ZTSA,1,['CLP_WHO_DEPLOY_ZTSA'],0,[]
+R2211WeeklyReportPopup,1,['R2211User'],1,['telemetry_collector_ti']
+REPORT_USE_ZTSA,1,['CLP_WHO_USE_ZTSA'],0,[]
+REPORT_VISIT_ZTRI,1,['CLP_WHO_VISIT_ZTRI'],0,[]
+R2211SecurityReport,1,['R2211User'],1,['telemetry_collector_ti']
+REPORT_USE_ZTRI,1,['CLP_WHO_INUSE_ZTRI'],0,[]
+Vision_One_Account_App_Usage_Trending_Zero_Trust_Secure_Access_UI,1,['Vision_One_Account_App_Usage_Get_CLP_By_MAK'],1,['xdr_pendo_events_flattened']
+Vision_One_Account_App_Usage_Trending_Sandbox_Analysis_UI,1,['SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC'],0,[]
+XDR_touched_WB_base,1,['slog_ubtaudit'],0,[]
+Trial_Account_CloudOne_Product_Usage_Summary,1,['Func_C1_Customer_Ins'],2,"['C1_Account_Usage', 'C1_Account_License']"
+NI_in_use_clp,1,['NI_onboard_customers_Louis_Temp'],1,['CLP_Account_UBT_Daily']
+CLP_WHO_VISIT_ASSET,1,['GET_XPATH_CODE_V2'],0,[]
+V1_EPP_Product_Connect_List,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+DVASS_UI_V1_Notitication,1,['xdr_matomo_events'],0,[]
+NIPS_Drill_Down_Table,1,['Func_NIPS_Use'],6,"['xdr_pendo_events_flattened', 'V1_user_account', 'CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Daily', 'DvassEndpointNotification']"
+XDR_visit_Search,1,['slog_ubtaudit'],0,[]
+CE2_Get_TI_Score,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily']"
+Vision_One_Account_App_Usage_Trending_Sase,1,['Vision_One_Account_App_Usage_Get_CLP_By_MAK'],1,['xdr_pendo_events_flattened']
+V1_Onboard_Customer_Count_by_Sensor_Type_Trending,1,['Func_V1_Deployed_bySensor'],0,[]
+R2301VPN,1,['R2301User'],1,['telemetry_collector_ti']
+C1_Trial_Conversion_Rate_Summary,1,['Func_c1_trial_conversion_summary'],0,[]
+C1_Trial_Conversion_Rate_Trending,1,['Func_c1_trial_conversion_trending'],0,[]
+C1_Trial_Conversion_Rate_Customer_List,1,['Func_c1_trial_conversion_customer_list'],2,"['Ref_Valid_Customer_Details', 'CUS_Account_Profile']"
+mxdr_ubt_approval_requests,1,['slog_ubtaudit'],0,[]
+TPI_sLog_TI_stix_feed_usage,1,['slog_ubtaudit'],0,[]
+NI_matomo_events,1,['xdr_matomo_events'],0,[]
+Tree_View_Vulnerability_Prioritization,1,['DVASS_Get_UI_Interaction'],2,"['CLP_Account_Risk_Insights_UBT_Daily', 'DvassEndpointNotification']"
+FW_Complimentary_Credit_Eligible_Customer,1,['FW_Complimentary_Credit_Eligible_Customer_No_Seat_Limitation'],0,[]
+Credit_Usage_Table,1,['slog_ubtaudit'],0,[]
+NI_provision_NS_connection_status,1,['slog_ubtaudit'],1,['CLP_Account_License_Daily']
+TPI_sLog_TI_MISP_feed_usage,1,['slog_ubtaudit'],0,[]
+SASE_ACTIVE_CLP_TEMP_FUNC,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+TPI_sLog_3rd_sharing_v2,1,['slog_ubtaudit'],0,[]
+TPI_sLog_service_gateway_v2,1,['slog_ubtaudit'],0,[]
+CLP_WHO_VISIT_V1_AND_SASE_Ling_FUNC,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+Func_CLP_Account_CES_Full,1,['slog_ubtaudit'],3,"['CLP_Account_License', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily']"
+user_segmentation_30d,1,['GET_NAV_APP_FUNC3'],2,"['CLP_Account_License', 'V1VisitsV3']"
+TPI_sLog_MISP_Feeds,1,['slog_ubtaudit'],0,[]
+CE_get_ti_manualsweeping,1,['slog_ubtaudit'],0,[]
+CE_get_oat_expand_detail,1,['XDR_touched_OAT'],0,[]
+Func_NPS_Historical_Data,1,['v_xdr_pendo_guide_events'],2,"['V1_user_account', 'CLP_Account_License']"
+Tree_View_Response_Management,1,['slog_ubtaudit'],2,"['slog_category', 'xdr_pendo_raw_events']"
+CE_get_EndpointInventory_metrics,1,['slog_ubtaudit'],1,['slog_category']
+Tree_View_DMM,1,['slog_ubtaudit'],1,['xdr_pendo_raw_events']
+NI_early_warning_target_Cus,1,['NI_customer_base'],1,['network_sensor_daily_snapshot']
+R2203AMSFunnel,1,['onelink_fix_additional_info'],1,['telemetry_collector']
+Func_NPS_In_Past_90days,1,['v_xdr_pendo_guide_events'],0,[]
+get_arp_count_and_duration_by_mdr_analyst,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+CE_get_product_connector_operate_status,1,['slog_ubtaudit'],0,[]
+CE_get_risk_insight_action_taken,1,['slog_ubtaudit'],0,[]
+SG_Appliance_LastInfo,1,['slog_ubtaudit'],1,['CLP_Account_License']
+NI_DDI_V1_support_Cus,1,['DDI_total_licensed_cus'],2,"['MAK_Account_GUID', 'ddi_product_feedback']"
+FW_Promotion_Log,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_risk_insight_drill_down_metrics,1,['slog_ubtaudit'],1,['xdr_pendo_events_flattened']
+ZTRI_DAILY_ACTIVE_INUSE_Customers,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+GET_PRODUCT_CODE_MAPPING_V2,1,['GET_TRILOGY_PRODUCT_CODE_MAPPING'],0,[]
+CLP_WHO_VISIT_ZTRI_V2,1,['CLP_WITH_V1_ACTIVE_LICENSE_DAILY'],1,['xdr_pendo_raw_events']
+CLP_WHO_VISIT_ZTRI,1,['CLP_WHO_VISIT_V1'],0,[]
+Tree_View_Sandbox_Analysis,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily', 'credit_allocation_daily_snapshot']"
+ZTRI_CLPS_INFO_LAST_37d,1,['slog_ubtaudit'],4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl', 'CLP_Account_License_Daily']"
+BIF_email_sensor_daily_snapshot_20220715_backup,1,['slog_ubtaudit'],1,['cas_product_feedback']
+CLP_WHO_VISIT_ZTRI_DAILY,1,['CLP_WHO_VISIT_V1'],0,[]
+ZTRI_Accumulated_Sensors,1,['SASE_ACTIVE_CLP_FUNC'],1,['sase_tdl']
+ZTRI_App_Usage,1,['SASE_ACTIVE_CLP_FUNC'],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+ZTRI_Monthly_ACTIVE_INUSE_Customers,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+ZTRI_Weekly_ACTIVE_INUSE_Customers,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+ZTRI_Accumulated_Customers,1,['SASE_ACTIVE_CLP_FUNC'],1,['sase_tdl']
+MOBILE_SECURITY_ENROLLED_DEVICE_FUNC,1,['slog_ubtaudit'],1,['CLP_Account_License']
+ZTRI_CLPS_INFO_LAST_30d,1,['slog_ubtaudit'],4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl', 'CLP_Account_License_Daily']"
+SASE_Accumulated_Customers,1,['SASE_ACTIVE_CLP_FUNC'],1,['sase_tdl']
+SASE_CLPS_INFO_LAST_30d,1,['slog_ubtaudit'],4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl', 'CLP_Account_License_Daily']"
+XDR_visit_WB,1,['slog_ubtaudit'],0,[]
+CLP_WHO_VISIT_V1_FUNC_DAILY,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+CE_get_wb_visit_v2,1,['XDR_visit_WB'],0,[]
+XDR_visit_OAT,1,['slog_ubtaudit'],0,[]
+CE_get_OAT_List_v2,1,['XDR_visit_OAT'],0,[]
+Tree_View_Intelligence_Report,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily']"
+CE_get_account_management_features,1,['slog_ubtaudit'],0,[]
+CE_get_api_metrics,1,['slog_ubtaudit'],0,[]
+SG_Appliance_Versions,1,['slog_ubtaudit'],1,['CLP_Account_License']
+xxx_Func_First_Login_Month_App_Usage_Per_Day,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+BIF_Service_Gateway_ForwardingProxy_Enable,1,['SG_Appliance_Service_Status_2'],0,[]
+AMSPopup101Ctr,1,['onelink_fix_additional_info'],2,"['telemetry_collector', 'telemetry_collector_ti']"
+Func_V1_OpenApi_Ubt_Count,1,['slog_ubtaudit'],0,[]
+CE_get_search_features,1,['slog_ubtaudit'],0,[]
+XDR_risky_paid_customer,1,['slog_ubtaudit'],1,['CLP_Account_License']
+Tree_View_Security_Playbooks,1,['xdr_matomo_events'],3,"['trilogy3_wae_triggered_task', 'xdr_pendo_raw_events', 'trilogy3_wae_playbook']"
+CE_get_dashboard_features,1,['slog_ubtaudit'],0,[]
+TRI_get_enter_page_metrics_unpivot,1,['TRI_get_enter_page_raw_data'],0,[]
+BIF_Service_Gateway_Service_TPI_Real_Traffic,1,['TPI_sLog_3rd_sharing_v2'],0,[]
+CE_get_OAT_List_API_SIEM,1,['slog_ubtaudit'],0,[]
+onelink_map_additional_info_to_one_link_info,1,['onelink_get_query_parameter_value_from_url'],0,[]
+BIF_Service_Gateway_Service_SPS_Real_Traffic,1,['SG_Appliance_LastInfo'],0,[]
+CLP_WHO_VISIT_V1_FUNC,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CLP_WHO_VISIT_V1_AND_SASE_FUNC,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+ubt_audit_piibak,1,['slog_ubtaudit'],0,[]
+SG_Appliance_Setting,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_Logon_info,1,['slog_ubtaudit'],0,[]
+SASE_ACTIVE_CLP_FUNC,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+CE_get_TPI_enabled_investigation,1,['slog_ubtaudit'],2,"['TPI_enabled_cus_stix_shifter', 'TPI_enabled_cus_intelligence_feeds']"
+BIF_Service_Gateway_Service_AD_Real_Traffic,1,['slog_ubtaudit'],0,[]
+BIF_Service_Gateway_Service_LAU_Real_Traffic,1,['slog_ubtaudit'],0,[]
+CE_get_TPI_enabled_IT_management,1,['slog_ubtaudit'],0,[]
+BIF_Service_Gateway_Service_SO_Sync_Real_Traffic,1,['SG_Appliance_LastInfo'],0,[]
+user_segmentation_clp,1,['GET_NAV_APP_FUNC3'],2,"['CLP_Account_License', 'V1VisitsV3']"
+BIF_Service_Gateway_Service_LogForwarding_Real_Traffic,1,['SG_Appliance_LastInfo'],0,[]
+SASE_ACTIVE_CLP_FUNC_Ling,1,['slog_ubtaudit'],3,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl']"
+CE_get_dmm_enable_disable,1,['slog_ubtaudit'],0,[]
+CLP_WHO_VISIT_V1_FUNC2,1,['slog_ubtaudit'],1,['CLP_Account_License']
+SASE_ACTIVE_CLP_FUNC2,1,['slog_ubtaudit'],3,"['CLP_Account_License', 'sase_tdl', 'xdr_pendo_events_flattened_sase']"
+CLP_WHO_VISIT_V1_AND_SASE_FUNC2,1,['slog_ubtaudit'],2,"['CLP_Account_License', 'xdr_pendo_events_flattened_sase']"
+Func_Conversion_Rate_SASE,1,['slog_ubtaudit'],4,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'CLP_Account_UBT', 'sase_tdl']"
+CE_get_misc_metrics,1,['slog_ubtaudit'],0,[]
+V1CustomerSetFunc,1,['slog_ubtaudit'],1,['CLP_Account_License']
+SG_Appliance_Registered,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CLP_WHO_VISIT_V1_AND_SASE_FUNC_Ling,1,['slog_ubtaudit'],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+CLP_WHO_VISIT_V1_FUNC_Ling,1,['slog_ubtaudit'],1,['CLP_Account_License']
+CE_get_ti_configure_so,1,['slog_ubtaudit'],0,[]
+TRI_get_enter_page_metrics,1,['TRI_get_enter_page_raw_data'],0,[]
+onelink_get_one_link_sources,1,['onelink_fix_additional_info'],1,['telemetry_collector']
+SG_Cus_Registered,1,['slog_ubtaudit'],1,['CLP_Account_License']
+Func_CLP_Account_License_Daily,1,['slog_ubtaudit'],4,"['CLP_Account_License', 'ARL_Customer_Annual_Value', 'CUS_CLP_AC_Mapping', 'CDE_Product_Hierarchy']"
+CE_get_early_warning_metrics,1,['slog_ubtaudit'],1,['slog_category']
+GET_V1_ZTSA_PAGE,0,[],0,[]
+Func_V1_Endpoint_Sensor_Detail_for_Tableau,0,[],2,"['Deployed_Endpoint_Sensor_Count_Detail', 'CLP_Account_License']"
+ZTSA_UBT_Agent_Log_Daily,0,[],1,['sase_tdl']
+Func_V1_Sensor_Deployed_for_Tableau,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT_Daily']"
+Func_pendo_track_type_mapping,0,[],0,[]
+Func_MAK_Account_License_Daily_backup,0,[],1,['MAK_Account_License']
+ZTSA_ZTNA_Basic_Get_PRule,0,[],0,[]
+Func_Mobile_Security_Enrolled_Customer,0,[],1,['credit_allocation_daily_snapshot']
+Func_MAP_MAK_Account_License_Daily,0,[],1,['Dim_Product']
+OD_ACCOUNT_UI_Interaction,0,[],1,['xdr_pendo_raw_events']
+alert_mapping_product_layer,0,[],0,[]
+Tree_View_Operations_Dashboard,0,[],1,['xdr_pendo_events_flattened']
+Func_NIPS_Use,0,[],3,"['xdr_pendo_events_flattened', 'V1_user_account', 'CLP_Account_License']"
+ZTSA_ZTNA_Basic_Get_App,0,[],1,['sase_tdl']
+ZTSA_ZTNA_Basic_Get_Agent,0,[],1,['sase_tdl']
+GET_V1_MOBILE_PAGE,0,[],0,[]
+ZTSA_ZTNA_Retrive_Track_Event,0,[],1,['sase_tdl']
+xxx_Func_App_Usage_Per_Day,0,[],1,['xxx_Trial_to_Paid_Customers_Base']
+xxx_Func_Trial_to_Paid_UBT,0,[],3,"['xxx_Trial_to_Paid_Customers_Info', 'xxx_First_Login_Month_App_Usage_Per_Day', 'xxx_App_Usage_Per_Day']"
+xdr_endpoint_agent_daily_snapshot_view_new,0,[],1,['xdr_endpoint_agent']
+GET_ZTRI_SENSOR_STATUS_RAW_backup,0,[],1,['sase_tdl']
+DVASS_Get_Vulnerability_detail,0,[],1,['DeviceVulnerability']
+EXPEND_GROUPING_RESULT,0,[],0,[]
+ZTSA_Customer_CLP_date_overviewv3,0,[],0,[]
+Mak_Guid_License,0,[],1,['MAK_Account_License']
+Tree_View_Endpoint_Inventory_App,0,[],3,"['CLP_Account_UBT_Daily', 'xdr_endpoint_policy', 'xdr_endpoint_agent']"
+ZTSA_ZTNA_Retrive_Setting_Change,0,[],1,['sase_tdl']
+ASSET_PROFILE_LABEL_MAPPING,0,[],0,[]
+xdr_matomo_events_get_event_actions,0,[],2,"['tmsas_matomo_log_action_v2', 'tmsas_matomo_log_action']"
+xdr_matomo_events_v2,0,[],2,"['tmsas_matomo_log_action_v2', 'tmsas_matomo_log_action']"
+ZTSA_Customer_stage_fun,0,[],0,[]
+ZTSA_Customer_stage,0,[],0,[]
+NIPS_in_use_clp,0,[],1,['CLP_Account_UBT_Daily']
+ZTSA_ZTNA_Get_Track,0,[],1,['xdr_pendo_raw_events']
+CES2_Zero_Trust_Secure_Access,0,[],1,['sase_tdl']
+Func_CLP_Paid_Suite,0,[],2,"['CLP_Account_License', 'Dim_Suite']"
+Func_CLP_Paid_Product,0,[],2,"['CLP_Account_License', 'Dim_Product']"
+BIF_Poseidon_Idp_Federation,0,[],1,['PoseidonAccountDB_tblIdpFederation']
+Func_V1_TM_Product_Deployed_for_Tableau,0,[],5,"['CLP_Account_UBT', 'Dim_Region_BU', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data']"
+GET_V1_CUSTOMER_VISIT_Track,0,[],1,['sase_tdl']
+xxx_Func_Trial_to_Paid_Customers_Info,0,[],8,"['xdr_pendo_events_flattened', 'CLP_Account_License', 'sase_tdl', 'CLP_Account_UBT_Daily', 'ACC_Account_Attribute', 'ACC_Dim_Solution_Transition', 'ACC_Dim_Solution_Combination', 'xxx_Trial_to_Paid_Customers_Base']"
+BIF_ZTSA_Credit_Allocation_His,0,[],5,"['Poseidon_Agreement', 'Poseidon_BatchUsage', 'Poseidon_CompanyIdentities', 'Poseidon_Entitlement', 'Poseidon_Measurement']"
+ZTSA_Customer_CLP_date_overview_fun,0,[],1,['ZTSA_Customer_CLP_date_overview_table']
+DVASS_Get_Endpoint_Information,0,[],1,['DvassEndpointNotification']
+BIF_Credit_Allocation_His,0,[],5,"['Poseidon_Agreement', 'Poseidon_BatchUsage', 'Poseidon_CompanyIdentities', 'Poseidon_Entitlement', 'Poseidon_Measurement']"
+Tree_View_Campaign_Intelligence,0,[],2,"['xdr_pendo_events_flattened', 'CLP_Account_UBT_Daily']"
+xdr_matomo_events0210,0,[],6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_visit_v2', 'tmsas_matomo_log_link_visit_action_v2', 'tmsas_matomo_log_action']"
+CLP_WHO_GRANTED_OPENLDAP,0,[],1,['CLP_Account_License']
+CLP_WHO_GRANTED_OKTA,0,[],1,['CLP_Account_License']
+GET_V1_CUSTOMER_VISIT_EVENT_REPAIR,0,[],0,[]
+n1_monthly_cus_table_temp,0,[],4,"['CLP_Account_UBT_Daily', 'Dim_Product', 'CUS_Account_Profile', 'Fact_Sold_Output_Data']"
+Tree_View_Email_Account_Inventory,0,[],0,[]
+Trail_Customer_Detail,0,[],2,"['CLP_Account_License', 'CDE_Product_Hierarchy']"
+xxx_Func_Trial_to_Paid_Customers_Base,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+Ti1773NSSAddMobileSeatFeedback,0,[],1,['telemetry_collector_ti']
+rls_telemetry_collector_carbon,0,[],1,['telemetry_collector_carbon']
+rls_telemetry_collector_carbon_sandbox,0,[],1,['telemetry_collector_carbon_sandbox']
+Ti1773R22Q4InstallTime,0,[],1,['telemetry_collector_ti']
+R2211InstallToolbarSurveyAbort,0,[],1,['telemetry_collector_ti']
+R2211NoIntentionInstallToolbarSurvey,0,[],1,['telemetry_collector_ti']
+Ti1773NSSAddMobileSeatActivate,0,[],2,"['telemetry_collector', 'telemetry_collector_ti']"
+Ti1773NSSProtectAnotherDevice,0,[],1,['telemetry_collector_ti']
+R2211MBE,0,[],2,"['telemetry_collector', 'MBEListFromSupport']"
+R2211User,0,[],3,"['telemetry_collector_ti', 'tm_account', 't_license_snapshot_ext']"
+rls_pwm_user,0,[],0,[]
+Ti1773NSSIncompatSoftware,0,[],1,['telemetry_collector_ti']
+CarbonVersionMonitor,0,[],1,['telemetry_collector_carbon']
+Ti1773NSSUninstallSurvey,0,[],1,['telemetry_collector_ti']
+incremental_tables_new_ingestion_count,0,[],0,[]
+Ti1773NSSRenewPopup,0,[],1,['telemetry_collector_ti']
+TitaniumEcRecord,0,[],4,"['wse_e_cessp_license_snapshot_ext', 'telemetry_collector_ti', 'wse_e_bby_license_snapshot_ext', 't_license_snapshot_ext']"
+TitaniumAUDashboard,0,[],1,['telemetry_collector_ti']
+adf_get_ids_conversion_rate,0,[],3,"['idsecurity_user_daily', 'country_alias', 'idsafe_licenses_daily']"
+adf_get_diamond_valid_paid_users,0,[],4,"['country_alias', 'tm_account', 'diamond_config', 'diamond_license']"
+adf_get_diamond_mau_wau_dau,0,[],5,"['diamond_station_log', 'country_alias', 'tm_account', 'diamond_config', 'diamond_license']"
+CarbonUserNumber,0,[],1,['telemetry_collector_carbon']
+TitaniumPaidLicense,0,[],2,"['t_license_snapshot_ext_daily', 't_license_snapshot_ext']"
+adf_get_ids_mau_wau_dau,0,[],3,"['telemetry_collector', 'country_alias', 'idsecurity_licenses']"
+adf_get_ids_ar_enable_rate,0,[],2,"['country_alias', 'idsecurity_licenses']"
+adf_get_ids_dau_mau_ratio,0,[],3,"['telemetry_collector', 'country_alias', 'idsecurity_licenses']"
+onelink_map_prod_url_to_destination,0,[],0,[]
+adf_get_ids_valid_paid_users,0,[],2,"['country_alias', 'idsecurity_licenses']"
+adf_get_ids_free_user_base,0,[],2,"['country_alias', 'idsecurity_licenses']"
+adf_get_tmc_free_user_base,0,[],3,"['country_alias', 'tmc_user', 'product_channel_sourceid']"
+adf_get_tmc_dau_mau_ratio,0,[],5,"['telemetry_collector', 'tmc_event_v2', 'country_alias', 'tmc_user', 'product_channel_sourceid']"
+adf_get_tmc_mau_wau_dau,0,[],5,"['telemetry_collector', 'tmc_event_v2', 'country_alias', 'tmc_user', 'product_channel_sourceid']"
+onelink_fix_additional_info_for_app_information,0,[],0,[]
+TiUserPlidPkgvid,0,[],1,['ti_pum']
+R177Users,0,[],2,"['ti_pum', 't_license_snapshot_ext_daily']"
+R22Q3Users,0,[],2,"['telemetry_collector_ti', 't_license_snapshot_ext']"
+adf_get_autorenew_sn_changes,0,[],3,"['autorenew_sn_daily', 't_license_snapshot_ext', 'connext_licenses']"
+CarbonEmailDefenderActiveUser,0,[],1,['EmailDefenderActiveUser']
+adf_get_tmc_user,0,[],4,"['telemetry_collector', 'tmc_event_v2', 'tmc_user', 'product_channel_sourceid']"
+CarbonPrivacyScanner,0,[],1,['telemetry_collector']
+autorenew_droppoint,0,[],3,"['t_license_snapshot_ext_daily', 'terra_ccworder', 'autorenew_sn_changes']"
+onelink_get_platform,0,[],0,[]
+Ti177CesspJPSiaGetSNFromDNS,0,[],1,['telemetry_collector_ti']
+CarbonBlockingPageBuyNow,0,[],3,"['telemetry_collector', 'telemetry_collector_ti', 't_license_snapshot_ext']"
+rls_diamond_station_log,0,[],0,[]
+Ti177CesspJPInstallFunnel,0,[],1,['telemetry_collector_ti']
+TitaniumDailyUserUpdate,0,[],2,"['t_license_snapshot_ext_daily', 't_license_snapshot_ext']"
+rls_autorenew_sn_daily,0,[],1,['autorenew_sn_daily']
+rls_autorenew_sn,0,[],0,[]
+CarbonDarkMode,0,[],1,['telemetry_collector']
+Ti177UsersAfterR2203,0,[],1,['telemetry_collector_ti']
+etl_biz_keys_by_product,0,[],5,"['connext_packages', 'vodafone_license', 'connext_licenses', 'terra_ccworder', 'connextv2_entitlements']"
+TrialUserMonthlyReport,0,[],3,"['ti_pum', 't_license_snapshot_ext', 'product_channel_sourceid']"
+tables_new_ingestion_count,0,[],3,"['FCT_DailyReport_V2', 'email_campaign_event_raw', 'License_Subscription_Daily']"
+YanRequestNSSBaseline,0,[],3,"['telemetry_collector_ti', 't_license_snapshot_ext', 'product_channel_sourceid']"
+rls_connextv2_entitlements,0,[],0,[]
+R2209User,0,[],2,"['telemetry_collector_ti', 't_license_snapshot_ext']"
+etl_get_cleaneronepro_store_user,0,[],4,"['apple_store_server_notification_v1', 'telemetry_collector', 'product_channel_sourceid', 'tc_unique_device']"
+R2209FirstPayGuardUsage,0,[],1,['telemetry_collector_ti']
+R2208User,0,[],2,"['telemetry_collector_ti', 't_license_snapshot_ext']"
+Ti1773R22Q4InstallFunnel,0,[],1,['telemetry_collector_ti']
+R22Q3UninstallSurvey,0,[],2,"['telemetry_collector_ti', 't_license_snapshot_ext']"
+R22XXUser,0,[],1,['telemetry_collector_ti']
+rls_hns_station_log,0,[],0,[]
+TitaniumInstallationReport,0,[],1,['telemetry_collector_ti']
+R2209NoIntentionInstallToolbarSurvey,0,[],1,['telemetry_collector_ti']
+R2209InstallToolbarSurveyAbort,0,[],1,['telemetry_collector_ti']
+rls_pwp_user,0,[],0,[]
+adf_get_hns_sdk_valid_paid_users,0,[],1,['hns_sdk_nec_licenses']
+adf_get_hns_sdk_valid_trial_users,0,[],1,['hns_sdk_nec_licenses']
+adf_get_hns_sdk_mau_wau_dau,0,[],2,"['hns_station_log', 'hns_sdk_nec_licenses']"
+etl_get_telstra_product_installs,0,[],5,"['connext_packages', 'tm_account', 'connext_licenses', 'connext_seats', 'pwm_feature_usage']"
+etl_get_tmc_weekly_report_metrics,0,[],5,"['telemetry_collector', 'tmc_event_v2', 'country_alias', 'tmc_user', 'product_channel_sourceid']"
+etl_get_cleaneronepro_appstore_weekly_report_metrics,0,[],4,"['telemetry_collector', 'country_alias', 'product_channel_user_summary', 'tc_unique_device']"
+etl_get_antivirusone_untracked_report_metrics,0,[],2,"['country_alias', 'product_channel_user_summary']"
+etl_get_titanium_bby_weekly_report_metrics,0,[],1,['License_Subscription_Daily']
+etl_get_titanium_cessp_weekly_report_metrics,0,[],2,"['eclog', 'country_alias']"
+etl_get_legalshield_product_installs,0,[],6,"['connext_packages', 'tm_account', 'legalshield_licenses', 'connext_licenses', 'connext_seats', 'pwm_feature_usage']"
+etl_get_legalshield_latest_subscription_count,0,[],1,['partner_integration_report']
+etl_get_product_channel_user_summary_y_axis,0,[],1,['product_channel_user_summary']
+etl_get_telstra_metrics,0,[],4,"['connext_packages', 'connext_licenses', 'connext_seats', 'telstra_order_items']"
+etl_get_vodafone_metrics,0,[],2,"['telemetry_collector', 'vodafone_license']"
+adf_get_antivirusone_conversion_rate,0,[],2,"['country_alias', 'antivirusone_user_daily']"
+etl_get_antivirusone_weekly_report_metrics,0,[],3,"['telemetry_collector', 'country_alias', 'antivirusone_user_daily']"
+etl_get_cleaneronepro_weekly_report_metrics,0,[],4,"['eclog', 'country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_pwp_conversion_rate,0,[],2,"['country_alias', 'pwp_user']"
+adf_get_idsecurity_user,0,[],4,"['tm_account', 'product_channel_sourceid', 'tc_unique_device', 'idsafe_licenses']"
+etl_get_titanium_tmms_weekly_report_metrics,0,[],4,"['telemetry_collector', 'mobilesecurity_user_daily', 'country_alias', 't_license_snapshot_ext_daily']"
+get_cleaneronepro_user,0,[],4,"['apple_store_server_notification_v1', 'telemetry_collector', 'product_channel_sourceid', 'tc_unique_device']"
+Func_BPG_CAS_Invoice,0,[],7,"['REV_Sales_Inv_Lines_LMP', 'REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines_Extend_NABU', 'CUS_Account_Profile', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines', 'REV_Sales_Inv_SubLines_LMP']"
+RLSForTablesWithoutRegionID,0,[],0,[]
+RLSForTablesWithRegionID,0,[],0,[]
+Func_CUS_CLP_MAK_Delta,0,[],1,['Change_Log_CUS_CLP_MAK']
+Func_BPG_DS_C1WS_Server_Tenant,0,[],2,"['Account_Intelligence', 'CDE_Product_Group_Level2']"
+Func_BPG_DS_C1WS_Agent_Version,0,[],2,"['Account_Intelligence', 'CDE_Product_Group_Level2']"
+Func_BPG_DS_C1WS_Module_Enabled_Count,0,[],2,"['Account_Intelligence', 'CDE_Product_Group_Level2']"
+Func_BPG_DS_C1WS_Module_Enabled_Count_Detail,0,[],2,"['Account_Intelligence', 'CDE_Product_Group_Level2']"
+Func_BPG_DS_C1WS_Invoice,0,[],9,"['REV_Sales_Inv_Lines_LMP', 'REV_Sales_Inv_Lines_AWSM', 'REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines_Extend_NABU', 'CDE_Product_Group_Level2', 'CUS_Account_Profile', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines', 'REV_Sales_Inv_SubLines_LMP']"
+Func_G_Link_CLP_Account_Suggestion,0,[],4,"['CUS_Registered_Account_Profile', 'CUS_CLP_AC_Mapping', 'REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines']"
+Func_G_Link_CLP_Account_Contact,0,[],1,['CUS_Registered_Account_Contact']
+Func_BPG_Apex_One_SaaS_Invoice,0,[],7,"['REV_Sales_Inv_Lines_LMP', 'REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines_Extend_NABU', 'CUS_Account_Profile', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines', 'REV_Sales_Inv_SubLines_LMP']"
+Func_BPG_WFBSS_Invoice,0,[],8,"['REV_Sales_Inv_Lines_LMP', 'PRD_AC_SN_Profile', 'REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines_Extend_NABU', 'CUS_Account_Profile', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines', 'REV_Sales_Inv_SubLines_LMP']"
+Func_BPG_TP_Invoice,0,[],5,"['REV_Sales_Inv_SubLines', 'REV_Sales_Inv_Lines_Extend_NABU', 'CUS_Account_Profile', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines']"
+etl_get_pwp_weekly_report_metrics,0,[],4,"['telemetry_collector', 'country_alias', 'pwp_user', 'product_channel_sourceid']"
+etl_get_product_channel_user_summary,0,[],1,['product_channel_user_summary']
+adf_get_hns_sdk_auto_renew_enable_rate,0,[],1,['hns_sdk_nec_licenses']
+adf_get_titanium_valid_trial_users,0,[],3,"['country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+UMH_browser_UNprotected,0,[],1,['telemetry_collector_ti']
+rls_sn_request,0,[],0,[]
+exclusive_lists_of_folders_tables_adx_monitor,0,[],0,[]
+adf_get_diamond_ar_enable_rate_overall,0,[],4,"['country_alias', 'tm_account', 'diamond_config', 'diamond_license']"
+adf_get_titanium_conversion_rate,0,[],4,"['country_alias', 'tm_account', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_titanium_valid_paid_users,0,[],3,"['country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_titanium_ar_enable_rate_amea_americas_europe,0,[],2,"['country_alias', 't_license_snapshot_ext_daily']"
+etl_get_titanium_weekly_report_metrics,0,[],4,"['eclog', 'country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_titanium_ar_enable_rate_overall,0,[],2,"['country_alias', 't_license_snapshot_ext_daily']"
+adf_get_titanium_ar_enable_rate_japan,0,[],1,['t_license_snapshot_ext_daily']
+adf_get_titanium_mau,0,[],4,"['eclog', 'country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_titanium_wau,0,[],4,"['eclog', 'country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_titanium_dau,0,[],4,"['eclog', 'country_alias', 't_license_snapshot_ext_daily', 'product_channel_sourceid']"
+adf_get_diamond_ar_enable_rate,0,[],4,"['country_alias', 'tm_account', 'diamond_config', 'diamond_license']"
+JapanXFullRenew,0,[],4,"['JapanXFullUser_2011to2208', 't_license_snapshot_ext_daily', 'product_channel_sourceid', 'R2112N2112UserStatus_Engage_d']"
+R2301User,0,[],3,"['telemetry_collector_ti', 'tm_account', 't_license_snapshot_ext']"
+etl_get_ids_weekly_report_metrics,0,[],5,"['telemetry_collector', 'idsecurity_user_daily', 'country_alias', 'idsafe_licenses_daily', 'product_channel_sourceid']"
+etl_get_tmms_weekly_report_active_licenses,0,[],4,"['telemetry_collector', 'country_alias', 'tm_account', 'mobilesecurity_user']"
+Ti1773NSSInstallFunnel,0,[],1,['telemetry_collector_ti']
+Ti1773R22Q4SystemCheckSource,0,[],1,['telemetry_collector_ti']
+Ti1773R22Q4GetSNFromDns,0,[],1,['telemetry_collector_ti']
+platinum_titanium_settings_status_get_column_count,0,[],1,['platinum_titanium_settings_status']
+adf_get_titanium_monthly_active_device_count,0,[],3,"['eclog', 'country_alias', 't_license_snapshot_ext_daily']"
+etl_get_pwm_local_mode_user,0,[],1,['tc_unique_device']
+CarbonPageRatingPopup,0,[],1,['telemetry_collector_carbon']
+JapanXFullRenewDetail,0,[],3,"['telemetry_collector_ti', 't_license_snapshot_ext', 'R2112N2112UserStatus_Engage_d']"
+adf_get_hns_sdk_conversion_rate,0,[],1,['hns_sdk_nec_licenses']
+adf_get_tmms_conversion_rate,0,[],2,"['mobilesecurity_user_daily', 'country_alias']"
+etl_get_hns_sdk_weekly_report_metrics,0,[],2,"['hns_station_log', 'hns_sdk_nec_licenses']"
+etl_get_diamond_weekly_report_metrics,0,[],4,"['diamond_station_log', 'country_alias', 'diamond_config', 'diamond_license']"
+etl_biz_keys_by_product_test,0,[],5,"['connext_packages', 'vodafone_license', 'connext_licenses', 'terra_ccworder', 'connextv2_entitlements']"
+CarbonEmailDefenderFunnel,0,[],2,"['EmailDefenderActiveUser', 'telemetry_collector']"
+rls_mobilesecurity_user,0,[],0,[]
+Mobile_App_Report_Data,0,[],0,[]
+Func_V1_omg,0,[],1,['Deployed_Endpoint_Sensor_Count_Detail']
+v_c1_cloud_accounts_fact_table,0,[],1,['c1_cloud_accounts_fact_table']
+Func_C1_Mapping,0,[],0,[]
+Func_C1_Deployed_Ins_exp,0,[],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+vw_C1_Account_Usage_Daily,0,[],1,['C1_Account_Usage_Daily']
+vw_C1_Usage_Extend,0,[],3,"['MAK_Channel_Daily', 'C1_Account_Mapping', 'C1_Usage']"
+vw_C1_Entitlement_Daily_Extend,0,[],4,"['MAK_Channel_Daily', 'C1_Entitlement_Daily', 'C1_Account_Mapping', 'C1_Usage']"
+Func_V1_haha,0,[],1,['CLP_Account_UBT_Daily']
+vw_C1_NSVA,0,[],1,['c1ns_daily_report']
+Func_Pre_Daily_Job_DQ,0,[],6,"['AWS_Channel_Daily', 'MAK_Channel_Daily', 'C1_Entitlement_Daily', 'C1_Account_Mapping', 'c1ns_daily_report', 'C1_Usage']"
+Func_c1_trial_conversion_summary_backup,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_trending_backup,0,[],1,['C1_Account_License']
+byOS_test,0,[],1,['Deployed_Endpoint_Sensor_Count_Detail']
+vw_CDE_C1_Sub_Channel,0,[],0,[]
+Func_C1_Account_Usage_test,0,[],2,"['C1_Account_Usage_Raw', 'C1_Account_Mapping']"
+vw_C1_Cloud_Accounts,0,[],1,['c1_cloud_accounts']
+vw_c1ns_internal_account,0,[],0,[]
+MobileActivated,0,[],4,"['telemetry_collector', 'telemetry_collector_ti', 'tm_account', 't_license_snapshot_ext']"
+_Func_Revenue_Retention_Rate_,0,[],0,[]
+Fn_Active_Customer_By_Suite_Annual_Value_Range_Test3,0,[],6,"['Dim_Region_BU', 'Ref_Valid_Customer_Details_Suite_L2', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data', 'Ref_Customer_Value_Range_Base']"
+Fn_Active_Customer_By_Suite_Annual_Value_Range,0,[],6,"['Dim_Region_BU', 'Ref_Valid_Customer_Details_Suite_L2', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data', 'Ref_Customer_Value_Range_Base']"
+Fn_Active_Customer_By_Suite_Annual_Value_Range_Test2,0,[],6,"['Dim_Region_BU', 'Ref_Valid_Customer_Details_Suite_L2', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data', 'Ref_Customer_Value_Range_Base']"
+AffirmTrust_Impacted_Customer,0,[],4,"['Dim_Region_BU', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data']"
+_Func_Revenue_Retention_Rate_with_Category_,0,[],0,[]
+_Func_Customer_Churn_Rate_with_Category_,0,[],0,[]
+_Func_Customer_Churn_Rate_,0,[],0,[]
+vw_C1_Usage_Extend_exp,0,[],3,"['MAK_Channel_Daily', 'C1_Account_Mapping', 'C1_Usage']"
+Fn_Customer_Churn_Rate,0,[],1,['Customer_Churn_Tags']
+GetMergeJob,0,[],1,['IndexLog']
+GetPendingJobs,0,[],1,['IndexLog']
+GetMergingTables,0,[],1,['IndexLog']
+Func_C1WS_From_DS_Daily,0,[],0,[]
+Func_C1_Account_Mapping_2021,0,[],7,"['awsm_daily_usage', 'REV_Sales_Inv_Lines_AWSM', 'CUS_Account_Key_Map', 'C1_Account_Mapping', 'C1_entitlement_dump20210728', 'C1_Usage', 'c1_subscription_lifecycle']"
+vw_C1_Subscription,0,[],1,['c1_subscription_lifecycle']
+Func_c1_trial_conversion_summary_6m_version,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_trending_real,0,[],1,['C1_Account_License']
+xdr_matomo_etl,0,[],3,"['tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit_v2', 'tmsas_matomo_log_link_visit_action_v2']"
+v_c1_pendo_feature_events,0,[],3,"['c1_pendo_features', 'c1_pendo_feature_events', 'c1_pendo_pages']"
+v_c1_pendo_events_flattened,0,[],4,"['c1_pendo_guides', 'c1_pendo_features', 'c1_pendo_track_types', 'c1_pendo_pages']"
+RI_access_risk_feature_list,0,[],0,[]
+RI_mitigate_or_prevent_risk_feature_list,0,[],0,[]
+xdr_matomo_events_back,0,[],2,"['tmsas_matomo_log_action_v2', 'tmsas_matomo_log_action']"
+apex_matomo_events_bak,0,[],2,"['apex_matomo_log_visit_v2', 'apex_matomo_log_visit']"
+Func_Security_Playbook_Use_CES,0,[],1,['trilogy3_wae_triggered_task']
+Func_c1_trial_conversion_trending_test,0,[],1,['C1_Account_License']
+CES2_Zero_Trust_Secure_Accessv2,0,[],1,['sase_tdl']
+GET_V1_EAI_PAGE,0,[],0,[]
+V1_UBT_SUMMARY_SESSION,0,[],0,[]
+V1_UBT_SUMMARY,0,[],0,[]
+Func_Tree_View_App_Usage_Hubble_Display_Config,0,[],0,[]
+GET_PENDO_SURVEY,0,[],2,"['xdr_pendo_guides', 'xdr_pendo_poll_events']"
+v_c1_pendo_page_events,0,[],2,"['c1_pendo_page_events', 'c1_pendo_pages']"
+v_c1_pendo_guide_events,0,[],4,"['c1_pendo_guides', 'c1_pendo_poll_events', 'c1_pendo_pages', 'c1_pendo_guide_events']"
+Func_MAK_Channel_Daily,0,[],7,"['REV_Sales_Inv_Lines_LMP', 'REV_Sales_Inv_Lines_AWSM', 'REV_Sales_Inv_SubLines', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_Lines', 'REV_Sales_Inv_SubLines_LMP', 'CDE_Product_ID9_Profile']"
+Func_C1_Usage,0,[],2,"['c1_usage_data_v2', 'azure_subscribers_legacy_dump20211029']"
+Func_c1_trial_conversion,0,[],1,['C1_Account_License']
+Func_C1_Active_Customer,0,[],3,"['C1_Account_Usage_Daily', 'CDE_Product_Hierarchy', 'C1_Account_License']"
+vw_All_C1_List,0,[],6,"['c1_account_lifecycle', 'c1_entitlement', 'c1_usage_data_v2', 'C1_entitlement_dump20210728', 'C1_Usage', 'c1_subscription_lifecycle']"
+Func_c1_trial_conversion_bychannel,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_trending,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_mom,0,[],1,['C1_Account_License']
+vw_C1_Account_Usage_Today,0,[],9,"['c1_account_lifecycle', 'c1_usage_data_v2', 'DS_AWSM_Country_BU_Mapping', 'C1_Account_Usage', 'C1_Account_Usage_Raw', 'MAK_Channel_Daily', 'C1_Account_Mapping', 'C1_Account_License', 'c1_subscription_lifecycle']"
+Func_c1_trial_conversion_mom_test,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_customer_list,0,[],3,"['Ref_Valid_Customer_Details_Suite_L2', 'Dim_Suite', 'C1_Account_License']"
+Func_C1_Customer_Instance,0,[],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+vw_AWSM_Price_List,0,[],2,"['awsm_daily_usage', 'C1_Usage']"
+Func_c1_trial_conversion_funnel,0,[],1,['C1_Account_License']
+Func_c1_trial_conversion_summary,0,[],1,['C1_Account_License']
+Fn_Active_Customer_By_Suite_Annual_Value_Range_Ling,0,[],6,"['Dim_Region_BU', 'Ref_Valid_Customer_Details_Suite_L2', 'Dim_Product', 'Dim_Customer_Info', 'Fact_Sold_Output_Data', 'Ref_Customer_Value_Range_Base']"
+GetUrlTopic,0,[],0,[]
+from_housecall_tav_user_metrics,0,[],3,"['telemetry_collector', 't_license_snapshot_ext', 'terra_ccworder']"
+rls_terra_license_new2,0,[],0,[]
+R2203ActivatedMobileUsers,0,[],1,['telemetry_collector']
+twkol_hare_he,0,[],1,['telemetry_collector']
+onelink_get_query_parameter_value_from_url,0,[],0,[]
+onelink_remove_url_query_parameter,0,[],0,[]
+onelink_get_new_blog_page_product_table,0,[],1,['telemetry_collector']
+onelink_get_product_table,0,[],1,['telemetry_collector']
+rls_terra_license_new,0,[],0,[]
+TestFunction1,0,[],0,[]
+onelink_is_user_agent_valid,0,[],0,[]
+CarbonActiveUserNumber,0,[],1,['telemetry_collector_carbon']
+onelink_remove_query_parameter,0,[],0,[]
+rls_terra_license_temp,0,[],0,[]
+rls_terra_license_all,0,[],0,[]
+rls_telstra_order_items,0,[],1,['telstra_order_items']
+TrialWeeklyNumber,0,[],1,['t_license_snapshot_ext']
+CarbonHttpsBlockingPage,0,[],2,"['telemetry_collector', 'ti_wrs_mapping']"
+R2203MCPadBtn,0,[],1,['telemetry_collector_ti']
+CarbonPageRating,0,[],1,['telemetry_collector']
+CarbonFirstSeePageRatingTime,0,[],1,['telemetry_collector']
+CarbonTi_R202204_ToolbarUninstall,0,[],3,"['carbon_toolbar_uninstall_survey', 'telemetry_collector', 'carbon_toolbar_uninstall_survey_mapping']"
+onelink_is_module_event_valid,0,[],0,[]
+onelink_map_additional_info_to_source,0,[],0,[]
+onelink_map_module_to_product_name,0,[],0,[]
+onelink_map_module_to_destination,0,[],0,[]
+get_antivirusone_user,0,[],4,"['apple_store_server_notification_v1', 'telemetry_collector', 'product_channel_sourceid', 'tc_unique_device']"
+rls_telemetry_collector_ti,0,[],1,['telemetry_collector_ti']
+rls_telemetry_collector_ti_sandbox,0,[],1,['telemetry_collector_ti_sandbox']
+product_weekly_user_count_changes,0,[],0,[]
+VBValidUser,0,[],2,"['telemetry_collector_ti', 't_license_snapshot_ext_daily']"
+TitaniumAutoRenew,0,[],2,"['t_license_snapshot_ext_daily', 'product_channel_sourceid']"
+AMSFeedback,0,[],1,['telemetry_collector']
+rls_vodafone_license,0,[],1,['vodafone_license']
+rlsmv_mobilesecurity_first_activation_log,0,[],0,[]
+is_tc_log_format_correct,0,[],1,['telemetry_collector']
+titanium_user_base_by_channel,0,[],1,['t_license_snapshot_ext']
+rls_terra_license,0,[],1,['terra_license']
+rls_terra_license_daily,0,[],1,['terra_license_daily']
+onelink_fix_additional_info,0,[],0,[]
+rlsfun,0,[],1,['rls_test']
+titanium_user_base_from_housecall_daily,0,[],3,"['telemetry_collector', 't_license_snapshot_ext', 'terra_ccworder']"
+get_idsecurity_licenses,0,[],4,"['telemetry_collector', 'tm_account', 'product_channel_sourceid', 'idsafe_licenses']"
+ti_premium_daily_sales,0,[],1,['terra_ccworder']
+rls_connext_seats,0,[],0,[]
+idsecurity_active_user,0,[],2,"['telemetry_collector', 'idsecurity_licenses']"
+tc_error_input_daily,0,[],3,"['telemetry_collector', 'product_channel_sourceid', 't_mobile_snapshot']"
+ti_premium_enabled_product,0,[],4,"['connext_packages', 'tm_account', 'connext_licenses', 'connext_seats']"
+mobilesecurity_user_base_daily,0,[],3,"['telemetry_collector', 'product_channel_sourceid', 't_mobile_snapshot']"
+mobilesecurity_user_base_by_channel,0,[],2,"['telemetry_collector', 't_mobile_snapshot']"
+is_tc_log_sandbox_format_correct,0,[],1,['telemetry_collector_sandbox']
+rls_ti_iot_event,0,[],1,['ti_iot_event']
+rls_ti_iot_event_stg,0,[],1,['ti_iot_event_stg']
+rls_performance_telemetry_collector,0,[],1,['performance_telemetry_collector']
+rls_performance_telemetry_collector_sandbox,0,[],1,['performance_telemetry_collector_sandbox']
+rls_telemetry_collector,0,[],1,['telemetry_collector']
+TestFunction,0,[],1,['terra_license']
+TestFunction_2,0,[],1,['terra_license']
+rls_telemetry_collector_sandbox,0,[],1,['telemetry_collector_sandbox']
+rls_terra_ccworder,0,[],0,[]
+rls_hns_sdk_nec_licenses,0,[],0,[]
+rls_t_mobile_snapshot,0,[],0,[]
+rls_t_license_snapshot_ext,0,[],0,[]
+rls_t_license_snapshot_ext_daily,0,[],1,['t_license_snapshot_ext_daily']
+rls_pwp_licenses,0,[],0,[]
+rls_idsafe_licenses,0,[],0,[]
+rls_idsafe_licenses_daily,0,[],1,['idsafe_licenses_daily']
+rls_connext_licenses,0,[],0,[]
+GetLastJobs,0,[],1,['IndexLog']
+GET_TRILOGY_RISKS_SUM,0,[],1,['dataLakeMetrics']
+GET_V1_TI_PAGE,0,[],0,[]
+v_xdr_pendo_track_events,0,[],2,"['xdr_pendo_track_types', 'xdr_pendo_track_events']"
+XDR_get_trial_customers,0,[],1,['CLP_Account_License_Daily']
+TPI_pendo_stix_shifter,0,[],1,['xdr_pendo_events_flattened']
+BIF_endpoint_inventory_snapshot,0,[],1,['xdr_endpoint_agent']
+xdr_pendo_raw_event,0,[],2,"['xdr_pendo_raw_events', 'xdr_pendo_raw_realtime']"
+existing_Cus,0,[],3,"['CLP_Account_License', 'MAK_Account_GUID', 'MAK_Account_License']"
+xdr_matomo_events,0,[],0,[]
+existing_Cus_2,0,[],3,"['CLP_Account_License', 'MAK_Account_GUID', 'MAK_Account_License']"
+XDR_cus_not_expire_v2,0,[],1,['CLP_Account_License']
+TPI_tag_mapping,0,[],0,[]
+v_xdr_pendo_feature_events,0,[],3,"['xdr_pendo_features', 'xdr_pendo_feature_events', 'xdr_pendo_pages']"
+v_xdr_pendo_guide_events,0,[],4,"['xdr_pendo_guide_events', 'xdr_pendo_guides', 'xdr_pendo_pages', 'xdr_pendo_poll_events']"
+v_xdr_pendo_page_events,0,[],2,"['xdr_pendo_page_events', 'xdr_pendo_pages']"
+mxdr_customer_clpid,0,[],1,['CLP_Account_License']
+TPI_pendo_3rd_party_sharing,0,[],1,['xdr_pendo_events_flattened']
+xdr_matomo_events_ethan,0,[],1,['tmsas_matomo_log_link_visit_action']
+xdr_matomo_events_kevin,0,[],1,['tmsas_matomo_log_link_visit_action']
+apex_matomo_events,0,[],2,"['apex_matomo_log_visit_v2', 'apex_matomo_log_visit']"
+Paid_license_expand,0,[],1,['CLP_Account_License']
+Func_Conversion_Rate,0,[],3,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Daily']"
+TPI_Cus_base_weekly,0,[],1,['CLP_Account_License_Daily']
+_xdr_matomo_events_rt,0,[],0,[]
+CE_get_sensor_deploy_features,0,[],2,"['CLP_Account_UBT_Daily', 'CLP_Account_License_Daily']"
+CE_get_TPI_enabled_visibility,0,[],1,['sase_tdl']
+mxdr_customer,0,[],1,['CLP_Account_License']
+BIF_c1ws_endpoint_sensor_daily_snapshot,0,[],3,"['CLP_Account_License', 'ds_product_feedback', 'ds_host']"
+slog_trace_pii,0,[],0,[]
+XDR_get_paid_customers,0,[],1,['CLP_Account_License_Daily']
+XDR_cus_base,0,[],1,['CLP_Account_License_Daily']
+GET_XPATH_CODE_V3,0,[],0,[]
+get_Enable_Rate_By_DynamicCompany,0,[],7,"['RealTimeScanSetting', 'SuspiciousConnectionSetting', 'WebReputationSetting', 'ScanNowSetting', 'PredictiveMachineLearningSetting', 'ManualScanSetting', 'ScheduledScanSetting']"
+Vision_One_Account_App_Usage_Trending_Intel_Reports_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_SO_Mgmt_UI,0,[],0,[]
+C1_Onboard_Customer_by_Service_Header,0,[],3,"['C1_Account_Usage_Daily', 'CDE_Product_Hierarchy', 'C1_Account_License']"
+C1_Onboard_Customer_by_Service_Trending,0,[],3,"['C1_Account_Usage_Daily', 'CDE_Product_Hierarchy', 'C1_Account_License']"
+Vision_One_Account_App_Usage_Get_CLP_By_MAK_new,0,[],1,['CLP_Account_License']
+Get_ARR_Category,0,[],1,['GSD_ARR_by_Category']
+CLP_Account_License_Selected_Field_For_Daily,0,[],1,['CLP_Account_License']
+Vision_One_Account_App_Usage_Trending_Mobile_Security_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Security_Dashboard_UI,0,[],0,[]
+apexoneExpand,0,[],1,['_temp']
+RealTimeScanSettingRawExpand,0,[],1,['_temp']
+get_Enable_Rate_By_Company,0,[],7,"['RealTimeScanSetting', 'SuspiciousConnectionSetting', 'WebReputationSetting', 'ScanNowSetting', 'PredictiveMachineLearningSetting', 'ManualScanSetting', 'ScheduledScanSetting']"
+fun_AgentBuildInfo_latest,0,[],1,['AgentBuildInfo']
+TPI_SASE_tdl,0,[],1,['sase_tdl']
+fun_ESAgentEnable_latest,0,[],1,['ESAgentEnable']
+RLSForTables,0,[],0,[]
+fun_RealTimeScanAction,0,[],1,['RealTimeScanAction']
+fun_ScheduleScanAction,0,[],1,['ScheduleScanAction']
+ApexOne_Server_BIF_FeatureFlagHiddenKey,0,[],3,"['AgentBuildInfo', 'osce_product_feedback', 'ServerInfo']"
+RLS_check,0,[],1,['RLS_config']
+Poseidon_Voucher_Lines,0,[],14,"['Poseidon_VoucherSourceIdentity', 'Poseidon_Stock', 'Poseidon_SourceType', 'Poseidon_StockTransaction', 'Poseidon_VoucherCreditRightResultActivity', 'Poseidon_VoucherSource', 'Poseidon_Voucher', 'Poseidon_RightCollectionMappingRight', 'Poseidon_RightResult', 'Poseidon_VoucherTermForCredit', 'Poseidon_VoucherTemplate', 'Poseidon_CompanyIdentities', 'Poseidon_RightCollection', 'Poseidon_CreditVoucherContent']"
+Poseidon_Credit_Allocation_Daily_Snapshot,0,[],2,"['Poseidon_UserCreditAllocationDailySnapshot', 'Poseidon_CompanyIdentities']"
+DDI_Valid_Cus,0,[],1,['MAK_Account_License']
+TPI_Cus_base,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+TPI_pendo_connector_list,0,[],1,['xdr_pendo_events_flattened']
+xdr_endpoint_agent_tenant,0,[],1,['_xdr_endpoint_agent']
+slog_ubtaudit_pii,0,[],0,[]
+slog_trace_pii_fact,0,[],1,['_slog_trace']
+slog_ubtaudit_pii_fact,0,[],1,['_slog_ubtaudit']
+EWA_Customer_Base,0,[],3,"['CLP_Account_License', 'CLP_Account_UBT', 'MAK_Account_License']"
+pendodata,0,[],1,['xdr_pendo_feature_events']
+CE_get_ztri_tdl_features,0,[],2,"['xdr_pendo_events_flattened', 'sase_tdl']"
+DDI_ever_licensed_cus,0,[],1,['MAK_Account_License']
+NI_customer_base,0,[],1,['CLP_Account_License']
+ZTSA_RuleConfiged_CLP_FUNC,0,[],1,['sase_tdl']
+NI_customer_base_daily,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+xdr_endpoint_agent_tenant_v3,0,[],1,['_xdr_endpoint_agent']
+SASE_EXTERNAL_CLP_FUNC_V2,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+GET_ZERI_SENSOR_LOGCOUNT_DAILY,0,[],1,['sase_tdl']
+Feature_Enabled_Status_ETL,0,[],2,"['MAK_Account_GUID', 'osce_product_feedback']"
+Customer_Enabled_Counts_STG_ETL,0,[],4,"['CLP_Account_License', 'CLP_Account_UBT', 'MAK_Account_GUID', 'osce_product_feedback']"
+SASE_EXTERNAL_CLP_Daily,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+FW_Customer_Seat_Range,0,[],1,['CLP_Account_License']
+SASE_EXTERNAL_CLP_FUNC,0,[],1,['CLP_Account_License']
+xdr_pendo_events_flattened_etl,0,[],4,"['xdr_pendo_track_types', 'xdr_pendo_guides', 'xdr_pendo_features', 'xdr_pendo_pages']"
+xdr_endopoint_agent_view,0,[],1,['xdr_endpoint_agent']
+xdr_endopoint_agent_daily_snapshot_view,0,[],1,['xdr_endpoint_agent']
+Func_MAK_Account_License_Daily,0,[],2,"['MAP_MAK_Account_License_Daily', 'MAK_Account_License']"
+DVASS_Endpoint_Notify_Per_Company,0,[],1,['DvassEndpointNotification']
+DVASS_Vulnerability_Per_Company_Per_Week,0,[],1,['DeviceVulnerability']
+DVASS_Exploit_Attempt_Per_Company,0,[],1,['ExploitAttemptStatistics']
+DVASS_Enabled_Agent_Per_Company,0,[],1,['xdr_endpoint_agent']
+CLP_WITH_V1_ACTIVE_LICENSE_DAILY,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+Func_CLP_Account_DQ,0,[],6,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Acknowledge_DQ', 'Trial_To_Paid_Conversion_Rate', 'CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+Func_CLP_Account_DQ_Before_Rename,0,[],6,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Acknowledge_DQ', 'Trial_To_Paid_Conversion_Rate', 'CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+ZTSA_customer_Funnel_30d,0,[],0,[]
+xdr_endpoint_agent_tenant_v2,0,[],1,['_xdr_endpoint_agent']
+DDI_total_licensed_cus,0,[],2,"['CLP_Account_License', 'MAK_Account_License']"
+FW_Entitled_Customer,0,[],1,['CLP_Account_License']
+xdr_endpoint_policy_status_tenant,0,[],3,"['_xdr_endpoint_policy_status', 'xdr_endpoint_policy_tenant', 'xdr_endpoint_policy_status']"
+CE_get_risk_insight_metrics,0,[],1,['xdr_pendo_events_flattened']
+slog_trace,0,[],1,['_slog_trace']
+slog_ubtaudit,0,[],1,['_slog_ubtaudit']
+SG_Cus_base,0,[],1,['CLP_Account_License']
+SG_Cus_Accessed,0,[],1,['CLP_Account_License']
+SG_Cus_Downloaded,0,[],1,['CLP_Account_License']
+SG_Cus_Downloaded_Unique,0,[],1,['CLP_Account_License']
+CE_get_TPI_enabled_network_blocking,0,[],2,"['TPI_enabled_cus_3rd_sharing', 'TPI_enabled_cus_intelligence_feeds']"
+xdr_matomo_events_bak,0,[],2,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_link_visit_action_v2']"
+xdr_endpoint_agent_group_updatepolicy,0,[],2,"['_xdr_endpoint_agent_groups', '_xdr_endpoint_groups']"
+CE_get_risk_insight_data_source,0,[],1,['sase_tdl']
+Func_CLP_Account_CES,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+XDR_cus_include_expired,0,[],1,['CLP_Account_License']
+Customer_Enabled_Counts_ETL,0,[],4,"['CLP_Account_License', 'CLP_Account_UBT', 'MAK_Account_GUID', 'osce_product_feedback']"
+SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC,0,[],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+SASE_TEST_DUAL_1_FUNC,0,[],2,"['CLP_Account_License', 'sase_tdl']"
+SASE_TEST_DUAL_2_FUNC,0,[],2,"['CLP_Account_License', 'sase_tdl']"
+slog_system,0,[],1,['_slog_system']
+slog_system_pii,0,[],0,[]
+SANDBOX_ANALYSIS_ACTIVE_CLP_FUNC_Frost,0,[],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+NI_pendo_events,0,[],1,['xdr_pendo_events_flattened']
+Customer_License_Base,0,[],1,['CLP_Account_License']
+TPI_pendo_3rd_party_sharing_v2,0,[],1,['xdr_pendo_events_flattened']
+xdr_endpoint_policy_tenant_policy,0,[],3,"['_xdr_endpoint_policy', 'xdr_endpoint_policy_tenant', 'xdr_endpoint_policy']"
+xdr_endpoint_policy_deploy_switch_tenant,0,[],3,"['_xdr_endpoint_policy_deploy_switch', 'xdr_endpoint_policy_deploy_switch', 'xdr_endpoint_policy_tenant']"
+Vision_One_Account_CLP_ID_Summary,0,[],3,"['CUS_Registered_Account_Profile', 'CLP_Account_UBT', 'CLP_Account_CES_Daily']"
+Vision_One_Account_App_Usage_License_Detail,0,[],1,['CLP_Account_License']
+Vision_One_Account_App_Usage_Get_CLP_By_MAK,0,[],1,['CLP_Account_License']
+GetCurrentMonth,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Head,0,[],1,['Account_Intelligence']
+Product_Usage_Account_DS_C1WS_Guids,0,[],0,[]
+CLP_Account_CES_Extend_Columns,0,[],0,[]
+CLP_Account_CES,0,[],1,['CLP_Account_CES_Daily']
+CLP_Account_License_Extend_Columns,0,[],0,[]
+CLP_Account_License_Extend,0,[],1,['CLP_Account_License']
+Onboard_Customer_Custom_Range_Order_4,0,[],0,[]
+Onboard_Customer_Custom_Range_String_4,0,[],0,[]
+Onboard_Customer_Score_Pivot_Config,0,[],0,[]
+Onboard_Customer_Summarize_Score_Header,0,[],2,"['CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+Onboard_Customer_Summarize_Score_Trending,0,[],2,"['CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+Vision_One_Engagement_Score_Trending,0,[],1,['CLP_Account_CES_Daily']
+GetMonths,0,[],0,[]
+C1_Trial_Conversion_Rate_Channel_List,0,[],1,['C1_Account_License']
+Onboard_Customer_Unconditional_Carry_decimal,0,[],0,[]
+Invoice_Detail_Extend_Columns,0,[],0,[]
+Revenue_Pivot_Config,0,[],0,[]
+Revenue_Custom_Range_Columns,0,[],0,[]
+Revenue_Custom_Range_Order_1,0,[],0,[]
+Revenue_Custom_Range_String_1,0,[],0,[]
+Revenue_String_Order,0,[],0,[]
+C1_Account_License_Daily,0,[],2,"['C1_Account_License_Daily', 'C1_Account_License']"
+C1_Onboard_Customer_Header,0,[],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+C1_Onboard_Customer_Trending,0,[],2,"['C1_Account_Usage_Daily', 'C1_Account_License']"
+C1_Onboard_Customer_Custom_Range_Columns,0,[],0,[]
+C1_Onboard_Customer_Pivot_Config,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Module,0,[],1,['Account_Intelligence']
+Product_Usage_Account_DS_C1WS_Protected_Instance_By_Agent_Version_Build,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Protected_Instance_By_Agent_Version,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Protected_Instance_By_Connector,0,[],0,[]
+Onboard_Customer_Trending,0,[],1,['CLP_Account_UBT_Daily']
+Onboard_Customer_Range_Order,0,[],0,[]
+Onboard_Customer_Range_String,0,[],0,[]
+Onboard_Customer_Unconditional_Carry,0,[],0,[]
+Onboard_Customer_Use_SeatRange_Columns,0,[],0,[]
+Onboard_Customer_Unconditional_Carry_real,0,[],0,[]
+Onboard_Customer_Unconditional_Carry_long,0,[],0,[]
+Onboard_Customer_Unconditional_Carry_int,0,[],0,[]
+Onboard_Customer_Custom_Range_Columns,0,[],0,[]
+Onboard_Customer_Custom_Range_String_1,0,[],0,[]
+Onboard_Customer_Custom_Range_Order_1,0,[],0,[]
+Onboard_Customer_Custom_Range_String_2,0,[],0,[]
+Onboard_Customer_Custom_Range_Order_2,0,[],0,[]
+Onboard_Customer_Custom_Range_Order_3,0,[],0,[]
+Onboard_Customer_Custom_Range_String_3,0,[],0,[]
+Onboard_Customer_String_Format,0,[],0,[]
+Vision_One_Account_Deployed_Sensor_Trending,0,[],1,['CLP_Account_UBT_Daily']
+Vision_One_Account_Sensor_License_Detail,0,[],1,['CLP_Account_License']
+Vision_One_Accounr_App_Usage_License_Detail,0,[],1,['CLP_Account_License']
+Onboard_Customer_Pivot_Config,0,[],0,[]
+Onboard_Customer_String_Order,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Security_Module_Enabled_Rate,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Security_Module_Detail_Enable_Rate,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Protected_Instance_By_OS,0,[],0,[]
+Product_Usage_Account_DS_C1WS_Protected_Instance_By_Module_Enabled,0,[],0,[]
+C1_Pricing_Mapping,0,[],0,[]
+V1_Trial_Conversion_Rate_Channel_List,0,[],1,['CLP_Account_UBT_Daily']
+Product_Usage_Account_DS_Security_Module_Enabled_Rate,0,[],0,[]
+Product_Usage_Account_C1_Protected_Instance_By_Connector,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Workbench_UI,0,[],0,[]
+Trial_Account_CloudOne_Entitlement,0,[],2,"['CDE_Product_Hierarchy', 'C1_Account_License']"
+Trial_Account_CloudOne_License,0,[],2,"['CDE_Product_Hierarchy', 'C1_Account_License']"
+Trial_Account_Profile,0,[],5,"['CUS_Registered_Account_Profile', 'CLP_Account_License', 'MAP_FIN_Region_BU', 'CUS_Account_Profile', 'C1_Account_License']"
+Vision_One_Account_App_Usage_Trending_Endpoints_Policies_UI,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Endpoint_Inventory_UI,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Security_Playbook_UI,0,[],1,['slog_category']
+Product_Usage_Account_C1_Guids,0,[],0,[]
+Product_Usage_Account_C1_Head,0,[],1,['Account_Intelligence']
+Product_Usage_Account_C1_Module,0,[],1,['Account_Intelligence']
+Product_Usage_Account_C1_Protected_Instance_By_Agent_Version,0,[],0,[]
+Product_Usage_Account_C1_Protected_Instance_By_Agent_Version_Build,0,[],0,[]
+Product_Usage_Account_C1_Protected_Instance_By_Module_Enabled,0,[],0,[]
+V1_Deployed_Sensor_Count_by_Endpoint_Sensor_Type_Trending,0,[],0,[]
+Product_Usage_Account_C1_Protected_Instance_By_OS,0,[],0,[]
+Product_Usage_Account_C1_Security_Module_Detail_Enable_Rate,0,[],0,[]
+Product_Usage_Account_C1_Security_Module_Enabled_Rate,0,[],0,[]
+Product_Usage_Account_DS_Guids,0,[],0,[]
+Product_Usage_Account_DS_Head,0,[],1,['Account_Intelligence']
+Product_Usage_Account_DS_Module,0,[],1,['Account_Intelligence']
+Product_Usage_Account_DS_Protected_Instance_By_Agent_Version,0,[],0,[]
+Product_Usage_Account_DS_Protected_Instance_By_Agent_Version_Build,0,[],0,[]
+Product_Usage_Account_DS_Protected_Instance_By_Connector,0,[],0,[]
+Product_Usage_Account_DS_Protected_Instance_By_Module_Enabled,0,[],0,[]
+Product_Usage_Account_DS_Protected_Instance_By_OS,0,[],0,[]
+Product_Usage_Account_DS_Security_Module_Detail_Enable_Rate,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Workbench_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Threat_Intel_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Threat_Intel_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Service_Gateway_Inventory_UI,0,[],1,['slog_category']
+V1_Deployed_Sensor_Count_by_OS_Trending,0,[],0,[]
+V1_Deployed_Sensor_Count_by_OS_Type_Trending,0,[],0,[]
+V1_Deployed_Sensor_Count_by_Sensor_Type_Trending,0,[],0,[]
+V1_Deployed_Sensor_Summary,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Account_Management_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Account_Management_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Assessment_Service_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Detection_Model_Management_API,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Detection_Model_Management_UI,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Early_Warning_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Email_Account_Inventory_API,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Email_Account_Inventory_UI,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Login_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Managed_XDR_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Network_Inventory_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_OAT_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_OAT_UI,0,[],1,['slog_category']
+Vision_One_Account_App_Usage_Trending_Product_Connector_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Product_Connector_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Response_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Response_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Sase_v2,0,[],2,"['xdr_pendo_events_flattened', 'CLP_Account_License']"
+Vision_One_Account_App_Usage_Trending_Search_API,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Search_UI,0,[],0,[]
+Vision_One_Account_App_Usage_Trending_Security_Posture_UI,0,[],0,[]
+ZTSA_In_Use_Customer_all,0,[],1,['CLP_Account_License']
+Product_Settings_ETL,0,[],5,"['DDI_Product_Settings', 'C1WS_Product_Settings', 'CAS_Product_Settings', 'A1_Product_Settings', 'DS_Product_Settings']"
+Func_Fix_DateTime_Issue_For_CLP_Account_License,0,[],1,['CLP_Account_License']
+CE_get_DVASS_metrics,0,[],1,['xdr_pendo_events_flattened']
+user_segmentationv2,0,[],2,"['CLP_Account_License', 'V1VisitsV3']"
+Func_Trilogy_API,0,[],1,['dataLakeAPI']
+user_segmentationv3,0,[],2,"['CLP_Account_License', 'V1VisitsV3']"
+GET_NAV_APP_FUNC3,0,[],0,[]
+GET_V1_URL_PATH,0,[],0,[]
+Credit_Customer_Source_Dashboard,0,[],1,['CLP_Account_UBT_Daily']
+CLP_WHO_USE_Help_Resource_Center,0,[],1,['xdr_pendo_events_flattened']
+n1_monthly_cus_table,0,[],4,"['CLP_Account_UBT_Daily', 'Dim_Product', 'CUS_Account_Profile', 'Fact_Sold_Output_Data']"
+CLP_CAS_License,0,[],4,"['CUS_Registered_Account_Profile', 'REV_Sales_Inv_Lines_LMP', 'CDE_Product_Hierarchy', 'REV_Sales_Inv_SubLines_LMP']"
+GET_V1_URL_PATH_v2,0,[],0,[]
+Credit_Customer_Source_Trial,0,[],1,['CLP_Account_UBT_Daily']
+xdr_endpoint_agent_tenant_v5,0,[],2,"['_xdr_endpoint_agent', 'xdr_endpoint_agent']"
+BIF_Service_Gateway_Real_Traffic_Cus_List,0,[],0,[]
+NEW_ZTSA_accumulated_private_internet,0,[],1,['NEW_ZTSA_accumulated_private_internet_Temp3']
+BIF_Service_Gateway_Customer,0,[],0,[]
+test,0,[],0,[]
+Track_Type_Average_Retention_Cohort_order_test,0,[],0,[]
+GET_ACCUMULATE_CUSTOMERS_bak,0,[],0,[]
+Cohort_PendoTrack_Events_Analysis,0,[],0,[]
+Func_V1_Accumulated_Cus,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+Cohort_PendoTrack_Events_Analysis_PerCUS,0,[],0,[]
+Cohort_Matomo_Events_Analysis_PerCUS,0,[],0,[]
+xdr_matomo_events_shorten,0,[],6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_visit_v2', 'tmsas_matomo_log_link_visit_action_v2', 'tmsas_matomo_log_action']"
+Cohort_Events_Analysis_PerCUS,0,[],0,[]
+Func_Temp_API_CLP,0,[],1,['V1_App_Usage']
+sase_tdl_DeviceVulnerability,0,[],1,['sase_tdl']
+user_segmentation,0,[],2,"['CLP_Account_License', 'V1VisitsV3']"
+CAS_Product_All,0,[],1,['cas_product_feedback']
+GET_NAV_APP_FUNC2,0,[],0,[]
+fed_constants,0,[],0,[]
+EMverified_customer_test,0,[],0,[]
+V1_login_customer_test,0,[],0,[]
+Assessment_tool_overview_test,0,[],1,['CLP_Account_License']
+ddi_Fn_guid_with_latest_feedback_in_90d,0,[],1,['ddi_product_feedback']
+Assessment_cloudMail_detection,0,[],0,[]
+GET_IF_CUSTOMERS_test,0,[],0,[]
+GET_UNIQUE_EVENT_NAME,0,[],0,[]
+risk_overview_front_end_raw_data,0,[],1,['xdr_pendo_events_flattened']
+GET_IF_RISKS_V2,0,[],0,[]
+exposure_overview_front_end_raw_data,0,[],1,['xdr_pendo_events_flattened']
+Assessment_common_date_filter,0,[],0,[]
+attack_overview_front_end_raw_data,0,[],1,['xdr_pendo_events_flattened']
+TRI_get_enter_page_raw_data_Monica,0,[],1,['xdr_pendo_events_flattened']
+Assessment_customers_attribute,0,[],1,['CLP_Account_License']
+GET_PRODUCTCODE_FROM_LOGSOURCE,0,[],0,[]
+CE_get_OAT_copy_to_clipboard_bak,0,[],3,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_action']"
+GET_NAV_APP_FUNC,0,[],0,[]
+GET_IF_CUSTOMERS_V3,0,[],0,[]
+Onboard_Customer_Header,0,[],1,['CLP_Account_UBT_Daily']
+GET_WEEKLY_ACCUMULATE_CUSTOMERS,0,[],0,[]
+TRI_get_enter_page_raw_data_bak,0,[],1,['xdr_pendo_events_flattened']
+TRI_get_enter_page_raw_data_t,0,[],1,['xdr_pendo_events_flattened']
+CE_get_OAT_copy_to_clipboard,0,[],3,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_action']"
+CLP_WHO_GRANTED_AAD,0,[],1,['CLP_Account_License']
+CLP_WHO_GRANTED_ONPREMISEDAD,0,[],1,['CLP_Account_License']
+sase_tdl_DvassPatchedVulnerability,0,[],1,['sase_tdl']
+Func_test_conn,0,[],1,['test_conn']
+GET_IF_EXCEPTIONS,0,[],0,[]
+Assessment_tool_overviewv2,0,[],1,['CLP_Account_License']
+T_PAGE_MAPPING,0,[],0,[]
+RI_mitigate_or_prevent_risk_feature,0,[],1,['xdr_pendo_events_flattened']
+XDR_SOC_Potential_Customer_List,0,[],2,"['CLP_Account_License', 'MAK_Account_License']"
+RI_access_risk_feature,0,[],1,['xdr_pendo_events_flattened']
+RI_visit_RI_apps,0,[],1,['xdr_pendo_events_flattened']
+Func_V1_UBT_Customer_for_Tableau,0,[],4,"['CLP_Account_License', 'CLP_Account_UBT_Daily', 'CLP_Account_License_Daily', 'CLP_Account_CES_Daily']"
+redalert_OpenSSL_assessment,0,[],1,['CLP_Account_License']
+Func_V1_Engagement_Score_for_Tableau,0,[],3,"['CLP_Account_License', 'CLP_Account_UBT_Daily', 'V1_Engagement_Score']"
+xdr_endpoint_agent_daily_snapshot_view,0,[],1,['xdr_endpoint_agent']
+V1_Parse_Highchart_Click,0,[],1,['xdr_pendo_raw_events']
+V1_Parse_Element_Click,0,[],1,['xdr_pendo_raw_events']
+T_CLP,0,[],0,[]
+RiskEvent_CLP_v1,0,[],0,[]
+FW_Complimentary_Credit_Eligible_Customer_Old,0,[],2,"['CLP_Account_License', 'MAK_Account_License']"
+GET_V1_URL_APP_MAPPINGS,0,[],1,['xdr_pendo_raw_events']
+GET_Pendo_Events_With_App_Pages,0,[],1,['xdr_pendo_raw_events']
+CLP_Daily_Data,0,[],1,['CLP_Account_UBT_Daily']
+EAI_UI_Interaction,0,[],1,['xdr_pendo_raw_events']
+GET_V1_RI_PAGE,0,[],0,[]
+GET_XPATH_CODE,0,[],0,[]
+GET_V1_TPC_PAGE,0,[],0,[]
+GET_XPATH_CODE_V2,0,[],0,[]
+GET_V1_XDR_PAGE,0,[],0,[]
+Func_Product_Connect_PRD_Mapping,0,[],0,[]
+GET_V1_PAGE_FUNC,0,[],0,[]
+ED_ACCOUNT_UI_Interaction,0,[],1,['xdr_pendo_raw_events']
+GET_V1_CUSTOMER_VISIT_ASSETS,0,[],2,"['sase_tdl', 'xdr_pendo_raw_events']"
+Func_V1_Deployed_bySensor_backup,0,[],1,['CLP_Account_UBT_Daily']
+T_MAPPING,0,[],0,[]
+TRI_get_ExecutiveDashboard_used_temp,0,[],1,['xdr_pendo_events_flattened']
+CE_get_DVASS_deployment_metrics,0,[],1,['DvassEndpointNotification']
+CE_get_DVASS_vuln_devices_metrics,0,[],1,['DeviceVulnerability']
+GET_ACCUMULATE_CUSTOMERS_WEEKLY,0,[],0,[]
+CE_get_DVASS_MTTP_metrics,0,[],1,['SoftwareNotification']
+GET_ASD_ClOUD_ASSET_RAW,0,[],0,[]
+Assessment_tool_overview_temp,0,[],1,['CLP_Account_License']
+Func_CLP_Account_DQ_test,0,[],6,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Acknowledge_DQ', 'Trial_To_Paid_Conversion_Rate', 'CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+CE_get_DVASS_MTTP_metrics_by_patched,0,[],1,['DvassPatchedVulnerability']
+Func_Hubble_CLP_Account_UBT_Addon,0,[],3,"['CLP_Account_UBT', 'CLP_Account_UBT_Daily', 'CLP_Account_Risk_Insights_UBT_Daily']"
+xdr_matomo_events_max,0,[],6,"['tmsas_matomo_log_link_visit_action', 'tmsas_matomo_log_action_v2', 'tmsas_matomo_log_visit', 'tmsas_matomo_log_visit_v2', 'tmsas_matomo_log_link_visit_action_v2', 'tmsas_matomo_log_action']"
+DVASS_Get_UI_Interaction,0,[],1,['xdr_pendo_raw_events']
+DVASS_Get_Unpatch_Vulnerabilities,0,[],1,['DeviceVulnerability']
+Func_Hubble_CLP_Account_UBT_Addon_Daily,0,[],3,"['CLP_Account_UBT', 'CLP_Account_UBT_Daily', 'CLP_Account_Risk_Insights_UBT_Daily']"
+expand_other_product_from_tp,0,[],1,['MAK_Account_License']
+xdr_endpoint_agent_tenant_v6,0,[],0,[]
+xdr_endpoint_policy_tenant_custom_setting,0,[],3,"['_xdr_endpoint_policy_custom_setting', 'xdr_endpoint_policy_tenant', 'xdr_endpoint_policy_custom_setting']"
+Cohort_Events_Analysis_UCLPS,0,[],0,[]
+CE_get_DVASS_vuln_devices_metrics_v2,0,[],2,"['DeviceVulnerability', 'DvassEndpointNotification']"
+Func_V1_App_Usage_for_Tableau,0,[],2,"['CLP_Account_License', 'V1_App_Usage']"
+V1_XDR_Customer_List_by_EPP_Product,0,[],2,"['CLP_Account_License', 'MAK_Account_License']"
+BIF_endpoint_sensor_daily_snapshot_0930,0,[],1,['xdr_endpoint_agent']
+V1_NPS_List_Possible_SOC,0,[],2,"['CLP_Account_License', 'xdr_pendo_poll_events']"
+Func_V1_Conversion_Rate_List,0,[],3,"['CLP_Account_License', 'Trial_To_Paid_Conversion_Rate', 'CLP_Account_UBT_Daily']"
+Func_Hubble_MAP_Data_Source_Type,0,[],0,[]
+CAS_NEW_UI,0,[],1,['xdr_pendo_raw_events']
+formfilled_customer_test,0,[],0,[]
+GET_IF_RISKS,0,[],0,[]
+Get_ZTSA_Rules,0,[],0,[]
+Log4j_LRFM_Model_with_weight_v2,0,[],0,[]
+ZTSA_ZTNA_Deployed_Daily_FUNC,0,[],1,['sase_tdl']
+Danny_test,0,[],0,[]
+Log4j_LRFM_Model,0,[],0,[]
+FW_MAK_With_Click_Log,0,[],1,['MAK_Account_GUID']
+Log4j_LRFM_Model_with_weight,0,[],0,[]
+Get_Data_Group,0,[],0,[]
+GET_RISK_INDEX,0,[],1,['sase_tdl']
+GET_CVE_INFO,0,[],1,['sase_tdl']
+GET_GLOBAL_CVE_INFO,0,[],1,['sase_tdl']
+GET_ATTACK_INDEX,0,[],1,['sase_tdl']
+GET_ATTACK_PHASES_OVERVIEW,0,[],1,['sase_tdl']
+GET_SITE_RISK_INDEX,0,[],1,['sase_tdl']
+GET_ATTACK_DETECTIONS,0,[],1,['sase_tdl']
+sase_tdl_AggregatedDevicev3,0,[],1,['sase_tdl']
+GET_PCODE_PROTECTION_LAYER,0,[],0,[]
+GET_GLOBAL_ATTACK_DETECTIONS,0,[],1,['sase_tdl']
+GET_ATTACK_MIGRATIONS,0,[],1,['sase_tdl']
+GET_GLOBAL_ATTACK_MIGRATIONS,0,[],1,['sase_tdl']
+TRI_get_customer_list,0,[],0,[]
+Log4j_LRFM_Model_weight_logistic,0,[],0,[]
+Log4j_LRFM_Model_weight_v2,0,[],0,[]
+Log4j_LRFM_Model_weight,0,[],0,[]
+GET_DISCOVERED_ATTACK_SURFACE_RAW,0,[],0,[]
+Log4j_LRFM_Model_weight_logistic2,0,[],0,[]
+Log4j_LRFM_Model_with_weight_v3,0,[],0,[]
+Log4j_LRFM_Model_without_weight_v3,0,[],0,[]
+Credit_inApp_Promotion_SG_Cus_Eligible,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+Credit_inApp_Promotion_Credit_Cus_Eligible,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+Credit_inApp_Promotion_License_Cus_Eligible,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT']"
+RA_CLP_V1_License,0,[],2,"['CLP_Account_License', 'CLP_Account_License_Daily']"
+GET_ZTRI_SENSOR_STATUS_RAW,0,[],1,['sase_tdl']
+Customer_GUIDS,0,[],1,['MAK_Account_GUID']
+C1WS_Product_Settings_ETL,0,[],2,"['C1WS_Server_Setting_for_Early_Warning', 'MAK_Account_GUID']"
+DS_Product_Settings_ETL,0,[],2,"['DS_Server_Setting_for_Early_Warning', 'MAK_Account_GUID']"
+A1_Product_Settings_ETL,0,[],2,"['ApexOne_Server_Setting_for_Early_Warning', 'MAK_Account_GUID']"
+DDI_Product_Settings_ETL,0,[],2,"['MAK_Account_GUID', 'DDI_Setting_for_Early_Warning']"
+CAS_Product_Settings_ETL,0,[],2,"['CLP_Account_License', 'CAS_Server_Setting_for_Early_Warning']"
+Enable_Sensor_CLP_FUNC,0,[],1,['sase_tdl']
+DVASS_Vulnerability_Per_Company,0,[],1,['DeviceVulnerability']
+ZTSA_ZTNA_CLP_Daily_FUNC,0,[],1,['sase_tdl']
+DS_File_List,0,[],1,['ds_product_feedback']
+_ApexOne_Server_Setting_for_Early_Warning,0,[],2,"['MAK_Account_GUID', 'osce_product_feedback']"
+GET_PRODUCT_CODE_MAPPING,0,[],0,[]
+FW_Complimentary_Credit_Eligible_Customer_No_Seat_Limitation,0,[],0,[]
+GET_LOG4J_MAKETO_DATA,0,[],0,[]
+GET_ZTRI_SENSOR_LOGS,0,[],1,['dataLakeMetrics']
+GET_ZTRI_RISK_EVENTS,0,[],1,['dataLakeMetrics']
+GET_TABLE_ASSETS,0,[],0,[]
+GET_OS_Category,0,[],0,[]
+GET_SAMBA_MAKETO_DATA,0,[],0,[]
+ApexOne_RT_Setting_Action,0,[],2,"['RealTimeScanSetting', 'RealTimeScanAction']"
+_CAS_Agent_Setting_for_Early_Warning,0,[],1,['cas_product_feedback']
+_CAS_Server_Setting_for_Early_Warning,0,[],1,['cas_product_feedback']
+GET_ZTSA_CUSTOMERS_HISTORY,0,[],0,[]
+xdr_endpoint_policy_agent_info_tenant,0,[],3,"['xdr_endpoint_policy_tenant', '_xdr_endpoint_policy_agent_info', 'xdr_endpoint_policy_agent_info']"
+GET_ES_EPP,0,[],1,['sase_tdl']
+sase_tdl_idscore,0,[],1,['sase_tdl']
+Assessment_tool_overview_fun,0,[],1,['CLP_Account_License']
+Assessment_tool_overview,0,[],1,['CLP_Account_License']
+Func_V1_Deployed_bySensor,0,[],1,['CLP_Account_UBT_Daily']
+Security_assess_visit_7d,0,[],1,['CLP_Account_License']
+Security_assess_startassess_7d,0,[],1,['CLP_Account_License']
+Security_assess_completeassess_7d,0,[],1,['CLP_Account_License']
+sase_tdl_dataLakeAPI,0,[],1,['sase_tdl']
+DVASS_SUSPICIOUS_VDI_AGENTS,0,[],1,['SoftwareNotification']
+DVASS_VALID_CUSTOMERS,0,[],1,['CLP_Account_License']
+Func_V1_Deployed_byOS,0,[],1,['Deployed_Endpoint_Sensor_Count_Detail']
+Credit_Customer_Source,0,[],1,['CLP_Account_UBT_Daily']
+Func_Conversion_Rate_Full,0,[],3,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Daily']"
+Service_One_Trial_Customers,0,[],0,[]
+GET_INTERNET_FACING_SENSOR_LOGS,0,[],0,[]
+formfilled_customer,0,[],0,[]
+GET_FEATURE_ADOPTION_RATE,0,[],1,['sase_tdl']
+EMverified_customer,0,[],0,[]
+V1_login_customer,0,[],0,[]
+GET_ACCUMULATE_CUSTOMERS,0,[],0,[]
+Assessment_tool_overview_apr,0,[],1,['CLP_Account_License']
+formfilled_customer_apr,0,[],0,[]
+EMverified_customer_apr,0,[],0,[]
+V1_login_customer_apr,0,[],0,[]
+Track_Type_Average_Retention_Cohort_group,0,[],0,[]
+Track_Type_Average_Retention_Cohort_order,0,[],0,[]
+GET_EVENT_GROUP,0,[],0,[]
+Func_CLP_Account_DQ_Before_Rename_Jerry,0,[],6,"['CLP_Account_License', 'CLP_Account_UBT', 'CLP_Account_UBT_Acknowledge_DQ', 'Trial_To_Paid_Conversion_Rate', 'CLP_Account_UBT_Daily', 'CLP_Account_CES_Daily']"
+V1_Current_Onboard_Customer_Seat_Range,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT_Daily']"
+Func_CLP_Account_UBT_Daily_DB_Sync,0,[],1,['CLP_Account_UBT_Daily']
+Reports_Visit,0,[],1,['xdr_pendo_events_flattened']
+ddi_Fn_valid_cus,0,[],1,['MAK_Account_License']
+ddi_Fn_guid_with_latest_feedback_in_1d,0,[],1,['ddi_product_feedback']
+MESCompany,0,[],0,[]
+GET_DISCOVERED_ATTACK_SURFACE_RAW2,0,[],0,[]
+Reports_download,0,[],0,[]
+Func_CLP_Account_DQ_Temp,0,[],2,"['CLP_Account_License', 'CLP_Account_UBT_Daily']"
+GET_DISCOVERED_ATTACK_SURFACE_RAW3,0,[],0,[]
+NEW_ZTSA_internetassessgateway_Customer,0,[],0,[]
+NEW_ZTSA_internetassessgateway_Customer_daily,0,[],0,[]
+Log4j_LRFM_Model_weight_v2_v1,0,[],0,[]
+Reports_Inuse,0,[],0,[]
+NEW_ZTSA_rule_enforcement_customers,0,[],1,['NEW_ZTSA_rule_enforcement_customers_temp3']
+Reports_Schecule_Running,0,[],0,[]
+Reports_Schedule_Running,0,[],0,[]
+NEW_ZTSA_privateassess_customers,0,[],1,['xdr_endpoint_agent']
+GET_DISCOVERED_ATTACK_SURFACE_30_DAYS,0,[],1,['sase_tdl']
+Log4j_LRFM_Model_weight_v2_v2,0,[],0,[]
+Func_V1_Conversion_Rate_Trending,0,[],2,"['CLP_Account_License', 'Trial_To_Paid_Conversion_Rate']"
+GET_TRILOGY_PRODUCT_CODE_MAPPING,0,[],0,[]
+GET_TRILOGY_RISK_EVENTS,0,[],1,['dataLakeMetrics']
+NEW_ZTSA_customers_30d,0,[],1,['NEW_ZTSA_customers_30d_temp3']
+Func_V1_Conversion_Rate_Summary,0,[],1,['Trial_To_Paid_Conversion_Rate']
+NEW_ZTSA_details_deploy_customers_daily,0,[],0,[]
+GET_DVASS_0DAY_ALERT,0,[],1,['sase_tdl']
+Reports_Generated_Clp,0,[],0,[]
+ddi_Fn_build_label,0,[],0,[]
+ddi_Fn_guid_with_latest_feedback,0,[],1,['ddi_product_feedback']
+Upcoming_Renewal,0,[],3,"['ARL_NABU_Opportunity_Header', 'SCH_Sales_Rep', 'ARL_NABU_Opportunity']"
